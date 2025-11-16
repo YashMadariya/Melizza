@@ -10,4 +10,8 @@ import { ButtonModule } from 'primeng/button';
 })
 export class ProductComponent {
 
+  openPDF(pdfUrl: string) {
+    const encoded = encodeURI(pdfUrl);
+    window.open(encoded, '_blank');
+  }
 }
