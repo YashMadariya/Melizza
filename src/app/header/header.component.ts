@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -9,5 +9,9 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  // @Output() openDownloadModal = new EventEmitter<{name: string, path: string}>();
 
+  // onOpenDownloadModal(pdfName: string, pdfPath: string) {
+  //   this.openDownloadModal.emit({ name: pdfName, path: pdfPath });
+  // }
 }

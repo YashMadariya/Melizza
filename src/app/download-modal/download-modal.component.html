@@ -1,0 +1,94 @@
+<div class="modal-overlay" *ngIf="isVisible" (click)="onBackdropClick($event)">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>Download {{ pdfName }}</h3>
+      <button type="button" class="close-btn" (click)="onClose()">&times;</button>
+    </div>
+    
+    <div class="modal-body">
+      <p class="modal-description">
+        Please provide your details to download the brochure. Your email client will open with a pre-filled message that you can send to us.
+      </p>
+      
+      <form (ngSubmit)="onSubmit()" #downloadForm="ngForm">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            [(ngModel)]="userDetails.name" 
+            required 
+            class="form-control"
+            placeholder="Enter your full name">
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company Name *</label>
+          <input 
+            type="text" 
+            id="company" 
+            name="company" 
+            [(ngModel)]="userDetails.company" 
+            required 
+            class="form-control"
+            placeholder="Enter your company name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            [(ngModel)]="userDetails.email" 
+            required 
+            class="form-control"
+            placeholder="Enter your email address">
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile Number *</label>
+          <input 
+            type="tel" 
+            id="mobile" 
+            name="mobile" 
+            [(ngModel)]="userDetails.mobile" 
+            required 
+            class="form-control"
+            placeholder="Enter your mobile number">
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description (Optional)</label>
+          <textarea 
+            id="description" 
+            name="description" 
+            [(ngModel)]="userDetails.description" 
+            class="form-control"
+            rows="3"
+            placeholder="Tell us about your requirements or any specific information you need"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" (click)="onClose()" [disabled]="isSubmitting">
+            Cancel
+          </button>
+          <!-- <button 
+            type="submit" 
+            class="btn btn-primary" 
+            [disabled]="!validateForm() || isSubmitting">
+            <span *ngIf="isSubmitting" class="spinner"></span>
+            {{ isSubmitting ? 'Sending...' : 'Submit & Download' }}
+          </button> -->
+          <button 
+            type="submit" 
+            class="btn btn-primary" 
+            [disabled]="!validateForm()">
+            Submit & Download
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
