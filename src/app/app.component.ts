@@ -58,4 +58,9 @@ export class AppComponent {
     link.click();
     document.body.removeChild(link);
   }
+
+   openPDF(pdfUrl: string) {
+    const encoded = encodeURI(pdfUrl);
+    window.open(encoded, '_blank');
+  }
 }
