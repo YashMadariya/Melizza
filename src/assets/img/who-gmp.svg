@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <!-- Badge Background -->
+  <rect x="2" y="2" width="116" height="76" rx="12" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- WHO Logo Text -->
+  <text x="60" y="28" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+    WHO
+  </text>
+  
+  <!-- Globe/Medical Symbol -->
+  <circle cx="60" cy="42" r="14" fill="none" stroke="#1A76D1" stroke-width="2.5"/>
+  <line x1="46" y1="42" x2="74" y2="42" stroke="#1A76D1" stroke-width="2.5"/>
+  <line x1="60" y1="28" x2="60" y2="56" stroke="#1A76D1" stroke-width="2.5"/>
+  
+  <!-- GMP Text -->
+  <text x="60" y="62" font-family="'Manrope', sans-serif" font-size="11" font-weight="600" fill="#1A76D1" text-anchor="middle" letter-spacing="2">
+    GMP
+  </text>
+  
+  <!-- Certified Text -->
+  <text x="60" y="74" font-family="'Manrope', sans-serif" font-size="7" font-weight="400" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="0.5">
+    CERTIFIED
+  </text>
+</svg>

@@ -1,174 +1,89 @@
-<!-- Start Feautes -->
-<section class="Feautes section p-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title mb-0">
-                    <h2>Products</h2>
-                    <img src="assets/img/section-img.png" alt="#">
-                </div>
-            </div>
-        </div>
-        <div class="row">
+<!-- product.component.html -->
 
-            <!-- LEFT SIDE: PDF GRID -->
-            <div class="col-lg-12 col-md-12 mb-4">
-                <div class="catalog-grid">
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Nutraceutical Product List_Melizza.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Nutraceutical Product</p>
-                    </div>
+<section class="products-section">
+  <div class="products-container">
 
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Cosmetic Product.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Cosmetics Product</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Medical Devices List_Melizza.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Medical Devices</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Oncology Product Details.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Oncology Product Details</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Oncology Product List_Melizza.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Oncology Product List</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Pharmaceutical Product_Melizza.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Pharmaceutical Product</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Surgical Product List_Melizza.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Surgical Product</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/API_Product_List_Melizza-1.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>API Product List</p>
-                    </div>
-
-                    <div class="catalog-card" (click)="openPDF('assets/brochures/Cosmetics Range.pdf')">
-                        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">
-                        <p>Cosmetics Range</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- RIGHT SIDE: SIDEBAR -->
-            <!-- <div class="col-lg-3 col-md-4">
-                <div class="sidebar-box">
-                    <h3>Products</h3>
-                    <ul>
-                        <li>Pharmaceutical Products</li>
-                        <li>Medical Devices</li>
-                        <li>Nutraceutical Products</li>
-                        <li>Surgical Products</li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-box">
-                    <h3>Contact Us</h3>
-                    <p>Melizza Lifescience</p>
-                    <p>Shed No 6, Plot No 1,<br> Rajkot, Gujarat, India</p>
-                    <p><strong>Mobile:</strong> +91-9898855798</p>
-                    <p><strong>Email:</strong> office&#64;melizzalifescience.com</p>
-
-                </div>
-            </div> -->
-
-        </div>
-        <!-- <div class="row">
-            <div class="col-lg-12 col-12">
-                <p class="ml-2 product-title">CARDIAC & DIABETIC PRODUCTS</p>
-                <table class="table table-hover mt-2 product-table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Sr no.</th>
-                            <th scope="col">Product List</th>
-                            <th scope="col">Strength</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Amlodipine + Atenolol Tablet</td>
-                            <td>5MG + 50 mg</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Atorvastatin Tablet</td>
-                            <td>10 mg, 20 mg</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Glimepiride + Metformin (By Layer) Tablet</td>
-                            <td>1mg + 500mg, 2mg + 500mg</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Glimepiride + Pioglitazone + Metformin (By Layer) Tablet</td>
-                            <td>1mg + 15mg + 500mg, 2mg + 15mg + 500mg</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>PREGABALIN + NORTRIPTYLINE Tablet</td>
-                            <td>75 mg + 10 mg</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Methylcobalamine + Pregabaline Cap. (In Drug)</td>
-                            <td>750 Mcg + 75 Mg</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Rosuvastatin Tablet</td>
-                            <td>10mg, 20MG</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Telmisartan Tablet</td>
-                            <td>40mg</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Telmisartan + AMLODIPINE Tablet</td>
-                            <td>40mg + 5mg</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Telmisartan₄₀ with Hydrochlorlithiazide Tablet</td>
-                            <td>12.5 mg</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <p class="ml-2 mt-2 product-title">ANTI MALARIAL</p>
-                <table class="table table-hover mt-2 product-table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Sr no.</th>
-                            <th scope="col">Product List</th>
-                            <th scope="col">Strength</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Amlodipine + Atenolol Tablet</td>
-                            <td>5MG + 50 mg</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div> -->
+    <!-- Header - Compact -->
+    <div class="section-header-compact">
+      <span class="section-tag">Our Portfolio</span>
+      <h2>Our Products</h2>
+      <p>
+        Explore our diverse range of high‑quality pharmaceutical, nutraceutical, 
+        and wellness products – designed to meet global healthcare standards.
+      </p>
     </div>
+
+    <!-- Search + Tabs Row (inline on desktop) -->
+    <div class="search-tabs-row">
+      <!-- Search Bar -->
+      <div class="search-wrapper">
+        <div class="search-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search products..."
+          [(ngModel)]="searchTerm"
+          (input)="onSearch()"
+          aria-label="Search products"
+        />
+        <button 
+          class="search-clear" 
+          *ngIf="searchTerm.length > 0"
+          (click)="clearSearch()"
+          aria-label="Clear search">
+          ✕
+        </button>
+      </div>
+
+      <!-- Category Tabs (scrollable) -->
+      <div class="category-tabs-wrapper">
+        <button 
+          class="tab-btn" 
+          *ngFor="let category of categories" 
+          [class.active]="activeCategory === category.id"
+          (click)="setCategory(category.id)">
+          {{ category.name }}
+          <span class="count">{{ getProductCount(category.id) }}</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Result Count -->
+    <div class="search-results-info" *ngIf="searchTerm.length > 0">
+      <span>{{ filteredProducts.length }} product{{ filteredProducts.length !== 1 ? 's' : '' }} found</span>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of filteredProducts" (click)="openModal(product)">
+        <div class="product-image">
+          <img [src]="product.image" [alt]="product.name" loading="lazy">
+          <div class="product-overlay">
+            <span>Quick View</span>
+          </div>
+          <span class="product-badge" [class]="product.category">{{ getCategoryName(product.category) }}</span>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{ product.name }}</h3>
+          <p class="product-description">{{ product.description || 'Click to view details' }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div class="empty-state" *ngIf="filteredProducts.length === 0">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <h3>No products found</h3>
+      <p *ngIf="searchTerm.length > 0">Try adjusting your search term or browse our categories.</p>
+      <p *ngIf="searchTerm.length === 0">No products available in this category.</p>
+    </div>
+  </div>
 </section>
-<!--/ End Feautes -->

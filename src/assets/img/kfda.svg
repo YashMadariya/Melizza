@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <!-- Badge Background -->
+  <rect x="2" y="2" width="116" height="76" rx="12" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Korean Flag inspired symbol (simplified) -->
+  <circle cx="60" cy="40" r="24" fill="none" stroke="#1A76D1" stroke-width="2"/>
+  
+  <!-- Yin-Yang inspired -->
+  <path d="M60 16 A24 24 0 0 1 60 64 A12 12 0 0 1 60 40 A12 12 0 0 0 60 16" fill="#1A76D1" opacity="0.4"/>
+  
+  <!-- KFDA Text -->
+  <text x="60" y="30" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">
+    KFDA
+  </text>
+  
+  <!-- Korean Text -->
+  <text x="60" y="44" font-family="'Inter', sans-serif" font-size="8" font-weight="400" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="0.5">
+    식품의약품안전처
+  </text>
+  
+  <!-- Compliant Text -->
+  <text x="60" y="58" font-family="'Manrope', sans-serif" font-size="10" font-weight="600" fill="#1A76D1" text-anchor="middle" letter-spacing="1">
+    COMPLIANT
+  </text>
+  
+  <!-- Agency Text -->
+  <text x="60" y="72" font-family="'Manrope', sans-serif" font-size="6.5" font-weight="400" fill="rgba(255,255,255,0.4)" text-anchor="middle" letter-spacing="0.3">
+    KOREA FOOD &amp; DRUG ADMINISTRATION
+  </text>
+</svg>

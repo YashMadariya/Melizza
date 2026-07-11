@@ -1,0 +1,47 @@
+<!-- certificate.component.html -->
+<section class="certificates-section">
+  <div class="certificates-container">
+    <!-- Header -->
+    <div class="section-header">
+      <span class="section-tag">Our Certifications</span>
+      <h2>Commitment to Quality & Compliance</h2>
+      <p>
+        We hold these prestigious certifications that reflect our dedication to safety, 
+        quality, and regulatory excellence across the globe.
+      </p>
+    </div>
+
+    <!-- Certificates Grid -->
+    <div class="certificates-grid">
+      <div class="certificate-card" *ngFor="let cert of certificates" (click)="openModal(cert.id)">
+        <div class="cert-image">
+          <img [src]="cert.image" [alt]="cert.name" loading="lazy">
+          <div class="cert-overlay">
+            <span>View Certificate</span>
+          </div>
+        </div>
+        <div class="cert-content">
+          <h3>{{ cert.name }}</h3>
+          <p class="cert-issuer">{{ cert.issuer }}</p>
+          <p class="cert-description">{{ cert.description }}</p>
+          <div class="cert-meta">
+            <span class="cert-status active">{{ cert.status }}</span>
+            <span class="cert-expiry">{{ cert.expiry }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="cert-modal" [class.is-open]="modalOpen" (click)="closeModal()">
+  <div class="cert-modal-content" (click)="$event.stopPropagation()">
+    <button class="cert-modal-close" (click)="closeModal()">✕</button>
+    <img [src]="selectedCert?.fullImage" [alt]="selectedCert?.name" loading="lazy">
+    <div class="cert-modal-footer">
+      <h4>{{ selectedCert?.name }}</h4>
+      <p>{{ selectedCert?.description }}</p>
+    </div>
+  </div>
+</div>

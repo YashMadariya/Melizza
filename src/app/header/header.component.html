@@ -1,72 +1,78 @@
 <!-- Header Area -->
-<header class="header" >
-    <!-- Topbar -->
-    <div class="topbar">
-    <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-5 col-12"></div>
-      <div class="col-lg-6 col-md-7 col-12">
-        <!-- Top Contact -->
-        <ul class="top-contact">
-          <li class="font-weight-bold largerFont"><i class="fa fa-phone"></i>+91 9898585798</li>
-          <li class="font-weight-bold largerFont"><i class="fa fa-envelope"></i>office&#64;melizzalifescience.com</li>
-        </ul>
-        <!-- End Top Contact -->
+<header class="site-header" [class.is-sticky]="isSticky">
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="header-logo">
+      <a routerLink="/">
+        <img src="assets/img/melizzalogo.jpg" alt="Melizza Life Science" class="logo-image" height="40">
+        <!-- <span class="logo-text">
+          <span class="logo-brand">Melizza</span>
+          <span class="logo-tagline">Life Science</span>
+        </span> -->
+      </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="header-nav desktop-nav" aria-label="Main navigation">
+      <ul>
+        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+        <li><a routerLink="/aboutus" routerLinkActive="active">About</a></li>
+        <li class="has-dropdown">
+          <a routerLink="/products" routerLinkActive="active">Products</a>
+          <ul class="dropdown">
+            <li><a routerLink="/products/nutraceutical">Developed nutraceutical products</a></li>
+            <li><a routerLink="/products/effervescent">Effervescent</a></li>
+            <li><a routerLink="/products/protein">Protein powder</a></li>
+            <li><a routerLink="/products/sachet">Sachet</a></li>
+            <li><a routerLink="/products/tablets">Tablets</a></li>
+          </ul>
+        </li>
+        <li><a routerLink="/certificate" routerLinkActive="active">Certifications</a></li>
+        <li><a routerLink="/contactus" routerLinkActive="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <a href="tel:+919898585798" class="header-phone" aria-label="Call us">
+        <!-- SVG phone icon -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.574 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        <span>+91 98985 85798</span>
+      </a>
+      <a routerLink="/contactus" class="btn btn-primary btn-sm">Get a Quote</a>
+      <button class="mobile-toggle" (click)="toggleMobileMenu()" [attr.aria-expanded]="mobileMenuOpen" aria-label="Toggle navigation menu">
+        <span class="bar" [class.active]="mobileMenuOpen"></span>
+        <span class="bar" [class.active]="mobileMenuOpen"></span>
+        <span class="bar" [class.active]="mobileMenuOpen"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" [class.is-open]="mobileMenuOpen">
+    <div class="mobile-nav-inner">
+      <ul>
+        <li><a routerLink="/" (click)="closeMobileMenu()">Home</a></li>
+        <li><a routerLink="/aboutus" (click)="closeMobileMenu()">About</a></li>
+        <li class="has-submenu">
+          <a (click)="toggleSubmenu('products')" role="button">Products</a>
+          <ul [class.is-open]="submenuOpen['products']">
+            <li><a routerLink="/products/category/nutraceutical" (click)="closeMobileMenu()">Developed Nutraceutical</a></li>
+            <li><a routerLink="/products/category/effervescent" (click)="closeMobileMenu()">Effervescent</a></li>
+            <li><a routerLink="/products/category/protein" (click)="closeMobileMenu()">Protein Powder</a></li>
+            <li><a routerLink="/products/category/sachet" (click)="closeMobileMenu()">Sachet</a></li>
+            <li><a routerLink="/products/category/tablets" (click)="closeMobileMenu()">Tablets</a></li>
+          </ul>
+        </li>
+        <li><a routerLink="/certifications" (click)="closeMobileMenu()">Certifications</a></li>
+        <li><a routerLink="/contactus" (click)="closeMobileMenu()">Contact</a></li>
+      </ul>
+      <div class="mobile-cta">
+        <a routerLink="/contactus" class="btn btn-primary btn-block">Get a Quote</a>
+        <a href="tel:+919898585798" class="btn btn-outline btn-block">Call Us</a>
       </div>
     </div>
-    </div>
-    </div>
-    <!-- End Topbar -->
-    <!-- Header Inner -->
-    <div class="header-inner">
-    <div class="container">
-    <div class="inner">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-12">
-          <!-- Start Logo -->
-          <div class="logo">
-            <a href="#"><img src="assets\img\melizzalogo.jpg" alt="Logo"></a>
-          </div>
-          <!-- End Logo -->
-          <!-- Mobile Nav -->
-          <div class="mobile-nav"></div>
-          <!-- End Mobile Nav -->
-        </div>
-        <div class="col-lg-9 col-md-11 col-12">
-          <!-- Main Menu -->
-          <div class="main-menu">
-            <nav class="navigation">
-              <ul class="nav menu">
-                <li><a routerLink="">Home</a></li>
-                <li><a routerLink="aboutus">About us</a></li>
-                <li><a routerLink="products">Products</a></li>
-                <li><a routerLink="contactus">Contact Us</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!--/ End Main Menu -->
-        </div>
-        <div class="col-lg-2 col-12">
-          <div class="get-quote">
-            <!-- <div class="dropdown fixed-bottom-left">
-              <button class="btn dropdown-toggle custom-orange-btn" type="button" id="dropdownMenuButton"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Download brochure
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="javascript:void(0)" (click)="onOpenDownloadModal('Nutraceutical Product List', 'assets/brochures/Nutraceutical Product List_Melizza.pdf')">Nutraceutical Product List</a>
-                <a class="dropdown-item" href="javascript:void(0)" (click)="onOpenDownloadModal('Oncology Product List', 'assets/brochures/Oncology Product List_Melizza.pdf')">Oncology Product List</a>
-                <a class="dropdown-item" href="javascript:void(0)" (click)="onOpenDownloadModal('OTC Product', 'assets/brochures/OTC Product_Melizza.pdf')">OTC Product</a>
-                <a class="dropdown-item" href="javascript:void(0)" (click)="onOpenDownloadModal('Pharmaceutical Product', 'assets/brochures/Pharmaceutical Product_Melizza.pdf')">Pharmaceutical Product</a>
-                <a class="dropdown-item" href="javascript:void(0)" (click)="onOpenDownloadModal('Surgical Product List', 'assets/brochures/Surgical Product List_Melizza.pdf')">Surgical Product List</a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    <!--/ End Header Inner -->
-    </header>
-    <!-- End Header Area -->
+  </div>
+</header>

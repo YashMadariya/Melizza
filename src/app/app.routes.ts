@@ -3,10 +3,13 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ProductComponent } from './product/product.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'contactus', component: ContactusComponent },
     { path: 'products', component: ProductComponent },
-    { path: 'aboutus', component: AboutUsComponent }
+    { path: 'products/:categoryId', component: ProductComponent },
+    { path: 'aboutus', component: AboutUsComponent },
+    { path: 'certificate', component: CertificateComponent }
 ];

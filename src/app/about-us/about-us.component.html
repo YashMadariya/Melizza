@@ -1,43 +1,106 @@
-<!-- Start Feautes -->
-<section class="Feautes section p-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title mb-0">
-                    <h2>About Us</h2>
-                    <img src="assets/img/section-img.png" alt="#">
-                </div>
-            </div>
+<!-- about-us.component.html -->
+
+<section class="about-section">
+  <div class="about-container">
+    <!-- Split Layout: Image + Content -->
+    <div class="about-grid">
+      <!-- Image Column -->
+      <div class="about-image-wrapper">
+        <div class="about-image">
+          <img src="assets/img/about-facility.jpg" alt="Melizza Life Science manufacturing facility" loading="lazy">
+          <div class="about-experience-badge">
+            <span class="number">10+</span>
+            <span class="label">Years of Excellence</span>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 col-12">
-                <p style="font-size: 16px;">Melizzalifescience is a trusted name in the pharmaceutical industry, dedicated to delivering high-quality healthcare solutions across the globe. With a strong focus on innovation, quality, and customer satisfaction, we specialize in both customized pharmaceutical manufacturing (contract manufacturing) and the supply of ready-to-ship pharmaceutical products.
-From formulation development to global export, our comprehensive services are designed to meet the evolving needs of healthcare providers, distributors, and patients worldwide. We work closely with partners to ensure that every product meets international quality standards, ensuring safety, efficacy, and compliance.
-At Melizzalifescience, we are committed to advancing global health through excellence in pharmaceutical production and ethical business practices. With a growing global presence, we continue to expand our reach and impact by fostering long-term relationships built on trust, integrity, and performance.
-Our mission is to make quality healthcare accessible around the world through reliable products and professional service.
-Our vision is to be a global leader in pharmaceutical solutions, known for innovation, responsibility, and customer commitment.</p>
-            </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="about-content">
+        <span class="section-tag">About Us</span>
+        <h2 class="about-title">A Global Healthcare Partner</h2>
+
+        <div class="about-description">
+          <p>
+            Melizza Life Science is a trusted name in the pharmaceutical industry, dedicated to delivering high‑quality healthcare solutions across the globe. With a strong focus on innovation, quality, and customer satisfaction, we specialize in both customized pharmaceutical manufacturing (contract manufacturing) and the supply of ready‑to‑ship pharmaceutical products.
+          </p>
+          <p>
+            From formulation development to global export, our comprehensive services are designed to meet the evolving needs of healthcare providers, distributors, and patients worldwide. We work closely with partners to ensure that every product meets international quality standards, ensuring safety, efficacy, and compliance.
+          </p>
         </div>
-        <div class="row mt-2">
-            <div class="col-md-6">
-                <div class="card" >
-                  <div class="card-body" style="box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
-                    <h5 class="card-title">
-                        <i class="icofont-bullseye"></i> OUR VISION
-                    </h5>
-                    <p class="card-text">To be a global leader in pharmaceutical solutions, known for innovation, responsibility, and customer commitment.</p>
-                  </div>
-                </div>
+
+        <!-- Mission & Vision Cards -->
+        <div class="about-mission-vision">
+          <div class="mv-card mission">
+            <div class="mv-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
             </div>
-            <div class="col-md-6">
-                <div class="card" >
-                  <div class="card-body" style="box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
-                    <h5 class="card-title"><i class="icofont-eye-open"></i>  OUR MISSION</h5>
-                    <p class="card-text">To make quality healthcare accessible around the world through reliable products and professional service.</p>
-                  </div>
-                </div>
+            <div>
+              <h4>Our Mission</h4>
+              <p>To make quality healthcare accessible around the world through reliable products and professional service.</p>
             </div>
+          </div>
+          <div class="mv-card vision">
+            <div class="mv-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Our Vision</h4>
+              <p>To be a global leader in pharmaceutical solutions, known for innovation, responsibility, and customer commitment.</p>
+            </div>
+          </div>
         </div>
+
+        <!-- Company Strengths -->
+        <div class="about-strengths">
+          <div class="strength-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+            <span>WHO-GMP Certified</span>
+          </div>
+          <div class="strength-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+            <span>ISO 9001:2015</span>
+          </div>
+          <div class="strength-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9"/>
+            </svg>
+            <span>15+ Countries Served</span>
+          </div>
+          <div class="strength-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+            <span>R&D Driven</span>
+          </div>
+        </div>
+
+        <a routerLink="/contactus" class="btn btn-primary">
+          Get in Touch
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </div>
     </div>
+  </div>
 </section>
-<!--/ End Feautes -->
