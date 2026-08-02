@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, OnInit } from '@angular/core';
+import { Component, afterNextRender } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -8,17 +8,13 @@ import { RouterLink } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements AfterViewInit, OnInit {
+export class HomeComponent {
   private observer: IntersectionObserver | null = null;
-
-  ngOnInit(): void {
-    // Set up intersection observer for animations
-    // We'll use it in ngAfterViewInit
-  }
-
-  ngAfterViewInit(): void {
-    this.setupScrollAnimations();
-    this.setupCounters();
+  
+  constructor() {
+    afterNextRender(() => {
+      this.setupScrollAnimations();
+    });
   }
 
   private setupScrollAnimations(): void {
@@ -38,11 +34,6 @@ export class HomeComponent implements AfterViewInit, OnInit {
     }, { threshold: 0.2 });
 
     elements.forEach(el => this.observer?.observe(el));
-  }
-
-  private setupCounters(): void {
-    // Counters will be animated when stat-card becomes visible (handled above)
-    // We'll animate them using the animateCounter method
   }
 
   private animateCounter(card: Element): void {

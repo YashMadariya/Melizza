@@ -1,4 +1,5 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { Router, NavigationEnd } from '@angular/router';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { filter } from 'rxjs/operators';
@@ -14,8 +15,14 @@ export class HeaderComponent implements OnInit {
   isSticky = false;
   mobileMenuOpen = false;
   submenuOpen: { [key: string]: boolean } = {};
+  private readonly isBrowser: boolean;
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    @Inject(PLATFORM_ID) platformId: object
+  ) {
+    this.isBrowser = isPlatformBrowser(platformId);
+  }
 
   ngOnInit() {
     // Close mobile menu on route change
@@ -28,6 +35,10 @@ export class HeaderComponent implements OnInit {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
+    if (!this.isBrowser) {
+      return;
+    }
+
     this.isSticky = window.scrollY > 20;
   }
 
@@ -46,6 +57,10 @@ export class HeaderComponent implements OnInit {
   }
 
   private toggleBodyScroll(disable: boolean) {
+    if (!this.isBrowser) {
+      return;
+    }
+
     if (disable) {
       document.body.style.overflow = 'hidden';
     } else {

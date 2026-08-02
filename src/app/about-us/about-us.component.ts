@@ -1,4 +1,4 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, afterNextRender } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -8,10 +8,11 @@ import { RouterLink } from '@angular/router';
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.css']
 })
-export class AboutUsComponent implements AfterViewInit {
-
-  ngAfterViewInit(): void {
-    this.setupScrollAnimations();
+export class AboutUsComponent {
+  constructor() {
+    afterNextRender(() => {
+      this.setupScrollAnimations();
+    });
   }
 
   private setupScrollAnimations(): void {
