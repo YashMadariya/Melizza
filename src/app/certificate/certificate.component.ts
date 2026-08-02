@@ -24,17 +24,17 @@ export class CertificateComponent {
   selectedCert: Certificate | null = null;
 
   certificates: Certificate[] = [
-    {
-      id: 'fssai',
-      name: 'FSSAI Certified',
-      issuer: 'Food Safety and Standards Authority of India',
-      description: 'Licensed to manufacture, store, and distribute food products in compliance with Indian food safety regulations.',
-      image: 'assets/img/FSSAI certificate.png',
-      fullImage: 'assets/img/FSSAI certificate.png',
-      status: 'Active',
-      //expiry: 'Valid until 2027'
-      expiry: ''
-    },
+    // {
+    //   id: 'fssai',
+    //   name: 'FSSAI Certified',
+    //   issuer: 'Food Safety and Standards Authority of India',
+    //   description: 'Licensed to manufacture, store, and distribute food products in compliance with Indian food safety regulations.',
+    //   image: 'assets/img/FSSAI certificate.png',
+    //   fullImage: 'assets/img/FSSAI certificate.png',
+    //   status: 'Active',
+    //   //expiry: 'Valid until 2027'
+    //   expiry: ''
+    // },
     {
       id: 'halal',
       name: 'HALAL Certified',
@@ -46,17 +46,17 @@ export class CertificateComponent {
       //expiry: 'Valid until 2028'
       expiry: ''
     },
-    {
-      id: 'iec',
-      name: 'Import Export Code (IEC)',
-      issuer: 'Directorate General of Foreign Trade, India',
-      description: 'Registered IEC holder, authorised to export pharmaceutical and healthcare products to global markets.',
-      image: 'assets/img/Import Export code.png',
-      fullImage: 'assets/img/Import Export code.png',
-      status: 'Active',
-      //expiry: 'Permanent (valid until surrender)'
-      expiry: ''
-    },
+    // {
+    //   id: 'iec',
+    //   name: 'Import Export Code (IEC)',
+    //   issuer: 'Directorate General of Foreign Trade, India',
+    //   description: 'Registered IEC holder, authorised to export pharmaceutical and healthcare products to global markets.',
+    //   image: 'assets/img/Import Export code.png',
+    //   fullImage: 'assets/img/Import Export code.png',
+    //   status: 'Active',
+    //   //expiry: 'Permanent (valid until surrender)'
+    //   expiry: ''
+    // },
     {
       id: 'qms',
       name: 'QMS Certified (ISO 9001:2015)',

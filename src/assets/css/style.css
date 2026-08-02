@@ -4198,7 +4198,7 @@ body{
 
 /*download brochure button*/
 .custom-orange-btn {
-	background-color: #2C2D3F;
+	background-color: #1A76D1;
 	color: white;
 	font-weight: 600;
 	padding: 20px 20px;
@@ -4207,7 +4207,7 @@ body{
   }
 
   .custom-orange-btn:hover {
-	background-color: #e96e10;
+	background-color: #ffffff;
 	color: white;
   }
 
