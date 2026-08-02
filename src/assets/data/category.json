@@ -1,0 +1,8 @@
+[
+  { "id": "all", "name": "All Products" },
+  { "id": "nutraceutical", "name": "Developed Nutraceutical" },
+  { "id": "effervescent", "name": "Effervescent" },
+  { "id": "protein", "name": "Protein Powder" },
+  { "id": "sachet", "name": "Sachet" },
+  { "id": "tablets", "name": "Tablets" }
+]

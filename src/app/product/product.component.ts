@@ -1,29 +1,21 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, ActivatedRoute, Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';  // ← ADD THIS for ngModel
 import { Subscription } from 'rxjs';
-
-interface Product {
-  id: number;
-  name: string;
-  category: string;
-  image: string;
-  description: string;
-  features?: string[];
-}
-
-interface Category {
-  id: string;
-  name: string;
-}
+import { ProductService } from '../services/product.service';
+import { Product } from '../interfaces/product';
+import { Category } from '../interfaces/category';
+import { forkJoin } from 'rxjs';
+import { CategoryService } from '../services/category.service';
 
 @Component({
   selector: 'app-product',
   standalone: true,
   imports: [CommonModule, RouterLink, FormsModule],  // ← ADD FormsModule
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProductComponent implements OnInit, OnDestroy {
   activeCategory = 'all';
@@ -31,74 +23,45 @@ export class ProductComponent implements OnInit, OnDestroy {
   modalOpen = false;
   selectedProduct: Product | null = null;
   private routeSub!: Subscription;
+  displayedProducts: Product[] = [];
+  pageSize = 12;
 
   categories: Category[] = [
-    { id: 'all', name: 'All Products' },
-    { id: 'nutraceutical', name: 'Developed Nutraceutical' },
-    { id: 'effervescent', name: 'Effervescent' },
-    { id: 'protein', name: 'Protein Powder' },
-    { id: 'sachet', name: 'Sachet' },
-    { id: 'tablets', name: 'Tablets' }
   ];
 
   // ===== PRODUCT DATA =====
   products: Product[] = [
-    {
-      id: 1,
-      name: 'ACEMEL - P',
-      category: 'nutraceutical',
-      image: 'assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/ACEMEL - P MOKEUP.jpg',
-      description: 'Acetamide 100 mg + Paracetamol 325 mg + Ibuprofen 100 mg',
-      features: ['Pain relief', 'Anti-inflammatory', 'Fever reduction']
-    },
-    {
-      id: 2,
-      name: 'L-Carnitine & Coenzyme Q10 Tablets',
-      category: 'tablets',
-      image: 'assets/img/products/T1-1.jpg',
-      description: 'L-Carnitine L-Tartrate & Coenzyme Q10 Tablets – Dietary supplement for energy and vitality.',
-      features: ['Supports heart health', 'Boosts energy levels', 'Antioxidant properties']
-    },
-    {
-      id: 3,
-      name: 'Vitamin C Effervescent Tablets',
-      category: 'effervescent',
-      image: 'assets/img/products/effervescent.jpg',
-      description: 'High‑strength Vitamin C effervescent tablets for immunity support.',
-      features: ['Boosts immune system', 'Fast absorption', 'Refreshing taste']
-    },
-    {
-      id: 4,
-      name: 'Whey Protein Isolate',
-      category: 'protein',
-      image: 'assets/img/products/protein.jpg',
-      description: 'Pure whey protein isolate for muscle recovery and growth.',
-      features: ['High protein content', 'Low fat & carbs', 'Easy to digest']
-    },
-    {
-      id: 5,
-      name: 'Electrolyte Powder Sachet',
-      category: 'sachet',
-      image: 'assets/img/products/sachet.jpg',
-      description: 'Oral rehydration salt sachet for fast hydration and electrolyte balance.',
-      features: ['Fast hydration', 'Balanced electrolytes', 'Convenient sachet']
-    },
+    
     // Add more products here...
   ];
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private productService: ProductService,
+    private categoryService: CategoryService,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
-    this.routeSub = this.route.paramMap.subscribe(params => {
-      const categoryId = params.get('categoryId');
-      if (categoryId && this.categories.some(c => c.id === categoryId)) {
-        this.activeCategory = categoryId;
-      } else {
-        this.activeCategory = 'nutraceutical';
-      }
+    forkJoin({
+      products: this.productService.getProducts(),
+      categories: this.categoryService.getCategories()
+    }).subscribe(({ products, categories }) => {
+      this.products = products;
+      this.categories = categories;
+      this.routeSub = this.route.paramMap.subscribe(params => {
+        const categoryId = params.get('categoryId');
+
+        if (categoryId && this.categories.some(c => c.id === categoryId)) {
+          this.activeCategory = categoryId;
+        } else {
+          this.activeCategory = 'all';
+        }
+
+        this.updateProducts();
+        this.cdr.markForCheck();
+      });
     });
   }
 
@@ -109,35 +72,52 @@ export class ProductComponent implements OnInit, OnDestroy {
   }
 
   // ===== FILTERED PRODUCTS (Category + Search) =====
-  get filteredProducts(): Product[] {
+
+  filteredProducts: Product[] = [];
+
+  private updateProducts() {
+
     let result = this.products;
 
-    // 1. Filter by category
     if (this.activeCategory !== 'all') {
-      result = result.filter(p => p.category === this.activeCategory);
+        result = result.filter(x => x.category === this.activeCategory);
     }
 
-    // 2. Filter by search term (case-insensitive)
-    if (this.searchTerm.trim().length > 0) {
-      const term = this.searchTerm.toLowerCase().trim();
-      result = result.filter(p =>
-        p.name.toLowerCase().includes(term) ||
-        p.description.toLowerCase().includes(term) ||
-        (p.features && p.features.some(f => f.toLowerCase().includes(term)))
-      );
+    if (this.searchTerm.trim()) {
+        const term = this.searchTerm.toLowerCase();
+
+        result = result.filter(p =>
+            p.name.toLowerCase().includes(term) ||
+            p.description.toLowerCase().includes(term)
+        );
     }
 
-    return result;
+    // Store filtered products
+    this.filteredProducts = result;
+
+    // Reset visible count whenever filters change
+    this.pageSize = 12;
+    
+    // Show only first page
+    this.displayedProducts = this.filteredProducts.slice(0, this.pageSize);
+    //console.log('Displayed:', this.displayedProducts.length);
+}
+
+  loadMore(): void {
+    this.pageSize += 12;
+    this.displayedProducts =
+    this.filteredProducts.slice(0, this.pageSize);
   }
 
   // ===== SEARCH METHODS =====
   onSearch(): void {
     // The filtering happens automatically via the getter
-    // This method is called on each input event
+    this.updateProducts();
   }
 
   clearSearch(): void {
     this.searchTerm = '';
+    this.updateProducts();
     // Focus the input after clearing
     const input = document.querySelector('.search-input') as HTMLInputElement;
     if (input) {
@@ -163,10 +143,16 @@ export class ProductComponent implements OnInit, OnDestroy {
 
   setCategory(categoryId: string): void {
     this.activeCategory = categoryId;
+    // Update immediately
+    this.updateProducts();
     // Optional: clear search when switching categories
     // this.searchTerm = '';
     const url = categoryId === 'all' ? '/products' : `/products/category/${categoryId}`;
     this.router.navigateByUrl(url);
+  }
+
+  trackByProduct(index: number, product: Product): number {
+    return product.id;
   }
 
   openModal(product: Product): void {

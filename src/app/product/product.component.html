@@ -60,7 +60,7 @@
 
     <!-- Product Grid -->
     <div class="products-grid">
-      <div class="product-card" *ngFor="let product of filteredProducts" (click)="openModal(product)">
+      <div class="product-card" *ngFor="let product of displayedProducts; trackBy: trackByProduct" (click)="openModal(product)">
         <div class="product-image">
           <img [src]="product.image" [alt]="product.name" loading="lazy">
           <div class="product-overlay">
@@ -75,6 +75,10 @@
       </div>
     </div>
 
+    <div class="load-more-wrapper" *ngIf="displayedProducts.length < filteredProducts.length">
+      <button class="load-more-btn" (click)="loadMore()">Load More Products</button>
+    </div>
+
     <!-- Empty State -->
     <div class="empty-state" *ngIf="filteredProducts.length === 0">
       <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -87,3 +91,31 @@
     </div>
   </div>
 </section>
+
+<!-- Modal Overlay -->
+<div class="modal-overlay" *ngIf="modalOpen" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <!-- Close Button -->
+    <button class="modal-close-btn" (click)="closeModal()" aria-label="Close modal">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- Modal Body -->
+    <div class="modal-body" *ngIf="selectedProduct">
+      <div class="modal-image-wrapper">
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
+      </div>
+      <div class="modal-details">
+        <span class="modal-badge" [class]="selectedProduct.category">
+          {{ getCategoryName(selectedProduct.category) }}
+        </span>
+        <h2 class="modal-title">{{ selectedProduct.name }}</h2>
+        <p class="modal-description">{{ selectedProduct.description || 'No additional details available.' }}</p>
+        <!-- Add more fields here if your Product interface has them, e.g., specifications -->
+      </div>
+    </div>
+  </div>
+</div>

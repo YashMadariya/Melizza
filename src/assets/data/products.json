@@ -1,0 +1,1785 @@
+[
+  {
+    "id": 1,
+    "name": "ACEMEL - P",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/ACEMEL - P MOKEUP.webp",
+    "description": "Acetamide 100 mg + Paracetamol 325 mg + Ibuprofen 100 mg for effective pain relief and fever control.",
+    "features": [
+      "Pain relief",
+      "Anti-inflammatory",
+      "Fever reduction"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ALBEN-MEZ 400",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/ALBEN-MEZ 400 MOKEUP.webp",
+    "description": "Albendazole 400 mg formulation used to treat parasitic infections and intestinal worm infestations.",
+    "features": [
+      "Anthelmintic action",
+      "Broad-spectrum use",
+      "Supports parasite control"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ALPHALIPOIC ACID 600MG CAPSULES",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/ALPHALIPOIC ACID 600MG CAPSULES MOKEUP.webp",
+    "description": "Alpha-lipoic acid 600 mg capsules for antioxidant support and metabolic wellness.",
+    "features": [
+      "Antioxidant support",
+      "Helps nerve health",
+      "Supports energy metabolism"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "AZIMEL 500MG",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/AZIMEL 500MG MOKEUP.webp",
+    "description": "Azithromycin 500 mg antibiotic formulation for bacterial infections and respiratory health support.",
+    "features": [
+      "Antibiotic action",
+      "Broad bacterial coverage",
+      "Convenient dosage"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "CIPROMEL 500MG",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/CIPROMEL 500MG MOKEUP.webp",
+    "description": "Ciprofloxacin 500 mg formulation designed for targeted treatment of bacterial infections.",
+    "features": [
+      "Antibacterial therapy",
+      "Fast action",
+      "Reliable treatment support"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "FLORAFAM MELIZZA BRAND",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/FLORAFAM MELIZZA BRAND MOKEUP.webp",
+    "description": "Flora-based nutraceutical support for digestive comfort and immune wellness.",
+    "features": [
+      "Digestive support",
+      "Immune wellness",
+      "Daily health support"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "GLIMEL-M2",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/GLIMEL-M2 MOKEUP.webp",
+    "description": "Glimepiride-based formulation for blood sugar management and metabolic balance.",
+    "features": [
+      "Blood sugar control",
+      "Metabolic support",
+      "Daily therapy aid"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "GLOW-MAX",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/GLOW-MAX MOKEUP WITH BOTTLE.webp",
+    "description": "Nutraceutical support designed to promote vitality, glow, and overall wellness.",
+    "features": [
+      "Energy support",
+      "Wellness boost",
+      "Daily nourishment"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "GLOW-RESTORE FACE CREAM",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/GLOW-RESTORE FACE CREAM MOKEUP WITH BOTTLE.webp",
+    "description": "Skincare cream formulated to restore glow, hydration, and healthy-looking skin.",
+    "features": [
+      "Hydrating care",
+      "Glow restoration",
+      "Skin nourishment"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "LUMIDRIPS FACE SERUM",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/LUMIDRIPS FACE SERUM MOKEUP.webp",
+    "description": "Face serum crafted to support radiant, smooth, and nourished skin.",
+    "features": [
+      "Skin radiance",
+      "Hydration support",
+      "Daily skincare care"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "MELI-CLAV 625",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/MELI-CLAV 625 MOKEUP.webp",
+    "description": "Amoxicillin-clavulanate combination formulation for broad-spectrum bacterial infection management.",
+    "features": [
+      "Broad antibacterial cover",
+      "Infection support",
+      "Trusted therapy aid"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "MELIPRA 650",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/MELIPRA 650 MOKEUP.webp",
+    "description": "Pain relief support formulation designed for everyday aches and discomfort.",
+    "features": [
+      "Pain support",
+      "Fast relief",
+      "Daily comfort"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "MET-MEZ SR 500",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/MET-MEZ SR 500 MOKEUP.webp",
+    "description": "Extended-release metformin-based formulation for sustained metabolic support.",
+    "features": [
+      "Sustained release",
+      "Blood sugar support",
+      "Metabolic wellness"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "METRO-Z",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/METRO-Z MOKEUP.webp",
+    "description": "Metronidazole-based formulation used for microbial infection management and gut health support.",
+    "features": [
+      "Antimicrobial use",
+      "Microbial control",
+      "Supportive therapy"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "OMEMEL 20",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/OMEMEL 20 MOKEUP.webp",
+    "description": "Omeprazole 20 mg formulation for gastric comfort and acid-related wellness support.",
+    "features": [
+      "Acid relief",
+      "Digestive comfort",
+      "Daily gastric support"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "PANTOMEL-DSR",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/PANTOMEL-DSR MOKEUP.webp",
+    "description": "Pantoprazole-based delayed-release formulation for long-lasting digestive comfort.",
+    "features": [
+      "Delayed release",
+      "Digestive support",
+      "Acid-related relief"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "RABEMEL-DSR",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/RABEMEL-DSR MOKEUP.webp",
+    "description": "Rabeprazole-based formulation for sustained relief from acid-related digestive discomfort.",
+    "features": [
+      "Sustained relief",
+      "Digestive comfort",
+      "Acid control"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "VOGLIMEZ - 0.3",
+    "category": "nutraceutical",
+    "image": "assets/img/DEVLOPED PHARMA PRODUCT IMAGE SELECTED/VOGLIMEZ - 0.3 MOKEUP.webp",
+    "description": "Voglibose-based formulation aimed at supporting healthy blood sugar levels.",
+    "features": [
+      "Blood sugar support",
+      "Metabolic balance",
+      "Daily care"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Advanced Weight Loss Supplement",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Advanced weightloss suppliment.webp",
+    "description": "A convenient effervescent wellness supplement designed to support healthy weight management and daily energy balance.",
+    "features": [
+      "Supports metabolism",
+      "Daily wellness support",
+      "Refreshing effervescent format"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Apple Cider Vinegar",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Apple cider vinegar.webp",
+    "description": "Effervescent apple cider vinegar support for digestive comfort and everyday wellness routines.",
+    "features": [
+      "Digestive support",
+      "Convenient daily use",
+      "Refreshing taste"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Calcium Carbonate & Vitamin D3",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Calcium carbonate & vita D3.webp",
+    "description": "A calcium and vitamin D3 blend formulated to support strong bones, teeth, and daily nutrition.",
+    "features": [
+      "Bone support",
+      "Vitamin D3 fortification",
+      "Easy effervescent intake"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Calcium",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Calcium.webp",
+    "description": "Calcium-rich effervescent supplement supporting bone and skeletal strength with a pleasant taste.",
+    "features": [
+      "Bone health",
+      "Daily mineral support",
+      "Great-tasting formula"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Collagen Peptide",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Collagen peptide.webp",
+    "description": "Effervescent collagen peptide supplement supporting skin, hair, and joint wellness in a delicious format.",
+    "features": [
+      "Skin nourishment",
+      "Joint support",
+      "Hydration-friendly format"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Curcumin and Piperine",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Curcumin_and_piperine.webp",
+    "description": "Curcumin with piperine support for antioxidant wellness and comfortable daily use.",
+    "features": [
+      "Antioxidant support",
+      "Enhanced absorption",
+      "Effervescent convenience"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Electrolytes & Energy",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Electrolytes energy.webp",
+    "description": "Electrolyte-rich effervescent drink support to help maintain hydration and vitality throughout the day.",
+    "features": [
+      "Hydration support",
+      "Energy boost",
+      "Refreshing taste"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "L-Arginine",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/L-Arginine.webp",
+    "description": "L-Arginine effervescent supplement designed to support circulation and overall wellness.",
+    "features": [
+      "Circulatory support",
+      "Daily wellness",
+      "Easy dissolve formula"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "L-Glutathione with Vitamin C & Grape Seed",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/L-Glutathione, Vitamin C Grape seed.webp",
+    "description": "A wellness blend combining glutathione, vitamin C, and grape seed extract for antioxidant support.",
+    "features": [
+      "Antioxidant support",
+      "Immune wellness",
+      "Brightening support"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Melatonin & L-Theanine",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Melatonin L-Theanine.webp",
+    "description": "An effervescent blend designed to support relaxation, sleep comfort, and calm daily wellness.",
+    "features": [
+      "Relaxation support",
+      "Sleep comfort",
+      "Calm daily routine"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Multivitamin with Carrot, Spinach and Avocado",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Multivitamin with Carrot, Spinach and Avocado.webp",
+    "description": "A nutrient-rich effervescent multivitamin crafted to support everyday vitality and wellness.",
+    "features": [
+      "Daily multivitamin support",
+      "Vitality support",
+      "Convenient effervescent format"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "N-Acetyl Cysteine",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/N-Acetyl Cysteine.webp",
+    "description": "Effervescent N-acetyl cysteine support focused on antioxidant wellness and daily health routines.",
+    "features": [
+      "Antioxidant support",
+      "Daily wellness",
+      "Easy dissolve format"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Pre & Pro Biotic & Electrolytes",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Pre Pro Biotic Electrolytes.webp",
+    "description": "A gut-friendly effervescent formula combining prebiotics, probiotics, and electrolytes for digestive and hydration support.",
+    "features": [
+      "Digestive support",
+      "Hydration support",
+      "Microbiome wellness"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Super Greens",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Super Greens.webp",
+    "description": "An effervescent greens blend created to support daily nutrition, vitality, and wellness habits.",
+    "features": [
+      "Daily greens support",
+      "Vitality support",
+      "Refreshing format"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Vitamin-C & Zinc",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Vitamin-C Zinc.webp",
+    "description": "Effervescent vitamin C and zinc support designed to help maintain immune wellness and daily resilience.",
+    "features": [
+      "Immune wellness",
+      "Antioxidant support",
+      "Daily nutrition"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Wheat Grass",
+    "category": "effervescent",
+    "image": "assets/img/Effervecent/Wheat grass.webp",
+    "description": "An effervescent wheat grass supplement focused on daily wellness, greens intake, and refreshing consumption.",
+    "features": [
+      "Greens intake",
+      "Daily wellness",
+      "Refreshing format"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Chocolate Flavour (Additional Supplement)",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Chocolate flavour (additional suppliment).webp",
+    "description": "A chocolate protein powder with added supplement support for daily recovery and nutrition.",
+    "features": [
+      "Protein support",
+      "Chocolate taste",
+      "Supplement-boosted formula"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Flavour (New)",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Chocolate flavour (new).webp",
+    "description": "A new chocolate protein powder formula crafted for muscle support and satisfying flavor.",
+    "features": [
+      "Muscle support",
+      "Rich chocolate",
+      "Improved formula"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Chocolate Flavour (Shatavari, Jivanti)",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Chocolate flavour (shatavari, jivanti).webp",
+    "description": "A chocolate protein powder blended with shatavari and jivanti to support strength and vitality.",
+    "features": [
+      "Herbal support",
+      "Protein nutrition",
+      "Chocolate flavor"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Chocolate Flavour with Vitamin and Minerals",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Chocolate flavour with vitamine and minerals.webp",
+    "description": "A chocolate protein powder enriched with vitamins and minerals for daily wellness and recovery.",
+    "features": [
+      "Vitamin support",
+      "Mineral enrichment",
+      "Protein recovery"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Chocolate Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Chocolate flavour.webp",
+    "description": "A classic chocolate protein powder for everyday nutrition and muscle support.",
+    "features": [
+      "Everyday protein",
+      "Chocolate flavor",
+      "Muscle support"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Delicious Chocolate Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Delicious chocolate flavor.webp",
+    "description": "A delicious chocolate protein powder designed to deliver great taste with essential protein support.",
+    "features": [
+      "Great taste",
+      "Protein support",
+      "Daily nutrition"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Gluten Free (DHA)",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Gluten free (DHA).webp",
+    "description": "A gluten-free protein powder enriched with DHA to support wellness and cognitive health.",
+    "features": [
+      "Gluten free",
+      "DHA support",
+      "Lean protein"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Health Protein",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Health protein.webp",
+    "description": "A health-focused protein powder formulated to support overall fitness and daily nutrition.",
+    "features": [
+      "Fitness support",
+      "Daily nutrition",
+      "Balanced formula"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Improved Formula Chocolate Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Improved formula chocolate flavour.webp",
+    "description": "An improved chocolate protein powder formula crafted for better mixability and taste.",
+    "features": [
+      "Improved formula",
+      "Chocolate taste",
+      "Easy mixability"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Keshar Elaichi Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Keshar elaichi flavour.webp",
+    "description": "A saffron-cardamom protein powder that delivers a warming, aromatic taste with powerful nutrition.",
+    "features": [
+      "Aromatic flavor",
+      "Protein nourishment",
+      "Herbal appeal"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Milk Masala Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Milk masala flavour.webp",
+    "description": "A spiced milk protein powder with traditional masala flavor for balanced nutrition and taste.",
+    "features": [
+      "Masala taste",
+      "Protein support",
+      "Balanced nutrition"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Protein Powder Chocolate",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Protein powder chocolate.webp",
+    "description": "A chocolate protein powder designed to help build muscle and support recovery.",
+    "features": [
+      "Muscle recovery",
+      "Chocolate flavor",
+      "High protein"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Protein Powder Chocolate Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Protein powder cocolate flavour.webp",
+    "description": "A chocolate-flavoured protein powder for tasty post-workout nutrition and daily support.",
+    "features": [
+      "Post-workout support",
+      "Chocolate flavour",
+      "Daily protein"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Protein Powder Keshar Elaichi Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Protein powder keshar elaichi flavour .webp",
+    "description": "A premium protein powder with saffron and cardamom flavor for rich taste and nourishment.",
+    "features": [
+      "Premium flavor",
+      "Protein nourishment",
+      "Rich texture"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Rich Whey Protein",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Rich whey protein.webp",
+    "description": "A rich whey protein powder specially formulated for strength, recovery, and lean muscle support.",
+    "features": [
+      "Whey protein",
+      "Recovery support",
+      "Strength building"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Sugar Free Chocolate Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Sugar free chocolate flavour.webp",
+    "description": "A sugar-free chocolate protein powder that supports lean nutrition without added sugar.",
+    "features": [
+      "Sugar free",
+      "Chocolate taste",
+      "Lean nutrition"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Sugar Free",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Sugar free.webp",
+    "description": "A sugar-free protein powder option for low-sugar nutrition and healthy living.",
+    "features": [
+      "Sugar free",
+      "Protein support",
+      "Healthy nutrition"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Vanilla Flavour",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Vanila flavour.webp",
+    "description": "A smooth vanilla protein powder crafted for daily nutrition and subtle, creamy taste.",
+    "features": [
+      "Vanilla taste",
+      "Daily protein",
+      "Creamy texture"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Vanilla Flavour Improved Formula",
+    "category": "protein",
+    "image": "assets/img/Protein powder/Vanila flavourimproved formula.webp",
+    "description": "An improved vanilla protein powder formula designed for better flavor, mixability, and nutrition.",
+    "features": [
+      "Improved formula",
+      "Vanilla flavor",
+      "Better mixability"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "With Vitamin and Minerals",
+    "category": "protein",
+    "image": "assets/img/Protein powder/With vitamin and minerals.webp",
+    "description": "A protein powder enriched with vitamins and minerals to support active lifestyle nutrition.",
+    "features": [
+      "Vitamin support",
+      "Mineral enrichment",
+      "Active nutrition"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "10 gm Sachet",
+    "category": "sachet",
+    "image": "assets/img/Sachet/10%20gm%20Sachet.webp",
+    "description": "A convenient 10 g sachet format designed for easy daily supplementation and fast mixing.",
+    "features": [
+      "Convenient serving",
+      "Easy mixing",
+      "Daily wellness"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Cholecalciferol Granules",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Cholecalciferol%20granules.webp",
+    "description": "Vitamin D3 granules formulated to support bone health, immunity, and daily nutrient balance.",
+    "features": [
+      "Bone support",
+      "Immune wellness",
+      "Vitamin D3 nutrition"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Collagen & Rosehip Extract Sachets",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Collagen%20%26%20Rosehip%20Extract%20Sachets.webp",
+    "description": "A sachet blend combining collagen and rosehip extract for skin, joint, and antioxidant support.",
+    "features": [
+      "Skin support",
+      "Joint comfort",
+      "Antioxidant care"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Collagen Peptide, N-Acetylglucosamine, Magnesium, Amino Acid & Vitamin Powder",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Collagen%20Peptide%2C%20N-Acetylglucosamine%2C%20Magnesium%2C%20Amino%20Acid%20%26%20Vitamin%20Powder.webp",
+    "description": "A comprehensive sachet powder supporting connective tissue, joints, and overall wellness with collagen and key nutrients.",
+    "features": [
+      "Joint support",
+      "Connective tissue care",
+      "Daily nourishment"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Curcumin, Rosehip Extract, Vitamin C, Collagen Peptide and Glucosamine Sachets",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Curcumin%2C%20Rosehip%20Extract%2C%20Vitamin%20C%2C%20Collagen%20Peptide%20and%20Glucosamine%20Sachets.webp",
+    "description": "An anti-inflammatory sachet blend crafted to support joint comfort, recovery, and everyday wellness.",
+    "features": [
+      "Inflammation support",
+      "Joint comfort",
+      "Daily vitality"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "L-Glutathione Sachet",
+    "category": "sachet",
+    "image": "assets/img/Sachet/L%20Glutathione%20Sachet.webp",
+    "description": "A glutathione sachet for antioxidant support, cellular wellness, and daily radiance.",
+    "features": [
+      "Antioxidant support",
+      "Cellular wellness",
+      "Daily vitality"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "L-Arginine & Proanthocyanidin Granules",
+    "category": "sachet",
+    "image": "assets/img/Sachet/L-Arginine%20%26%20Proanthocyanidin%20Granules.webp",
+    "description": "Granules formulated to support circulation, vascular wellness, and daily energy balance.",
+    "features": [
+      "Circulatory support",
+      "Energy balance",
+      "Antioxidant care"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "L-Arginine Granules, Methylcobalamin & Folic Acid",
+    "category": "sachet",
+    "image": "assets/img/Sachet/L-Arginine%20Granules%2C%20Methylcobalamin%20%26%20Folic%20Acid.webp",
+    "description": "A nutrient-rich sachet blend supporting energy metabolism, red blood cell health, and vitality.",
+    "features": [
+      "Energy metabolism",
+      "Red blood cell support",
+      "Daily vitality"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "L-Arginine, Folic Acid & Zinc Granules",
+    "category": "sachet",
+    "image": "assets/img/Sachet/L-Arginine%2C%20Folic%20Acid%20%26%20Zinc%20Granules.webp",
+    "description": "Granules supporting metabolic function, immunity, and recovery in a practical sachet format.",
+    "features": [
+      "Immune support",
+      "Metabolic support",
+      "Recovery care"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "L-Arginine, Folic Acid, Proanthocyanidins, DHA & Zinc Sachet",
+    "category": "sachet",
+    "image": "assets/img/Sachet/L-arginine%2C%20Folic%20Acid%2C%20Proanthocyanidins%2C%20DHA%20%26%20Zinc%20Sachet.webp",
+    "description": "A wellness sachet designed for circulation, cognitive support, and daily health maintenance.",
+    "features": [
+      "Cognitive support",
+      "Circulatory support",
+      "Daily wellness"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Myo-Inositol, Folic Acid & Vitamin D3 Sachets",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Myo-Inositol%2C%20Folic%20Acid%20%26%20Vitamin%20D3%20Sachets.webp",
+    "description": "A sachet blend supporting hormonal balance, wellness, and daily nutritional support.",
+    "features": [
+      "Hormonal support",
+      "Daily nutrition",
+      "Wellness balance"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Pre & Pro Biotic",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Pre%20%26%20Pro%20Biotic.webp",
+    "description": "A probiotic sachet designed to promote digestive comfort, gut balance, and everyday wellness.",
+    "features": [
+      "Digestive support",
+      "Gut balance",
+      "Daily wellness"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Relieve Joint Pain and Improve Mobility",
+    "category": "sachet",
+    "image": "assets/img/Sachet/Relieve%20Joint%20pain%20and%20improve%20mobility.webp",
+    "description": "A joint-support sachet formulated to help ease discomfort and support better mobility.",
+    "features": [
+      "Joint support",
+      "Mobility aid",
+      "Comfort support"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "2-Amino Ethane Sulphonic Acid (Taurine), levo Glutaminde, Y-Glutamyl- Cysteinylglycine, Thiamine, Pyridoxine, Riboflavine & Cyanocobalamine Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/2-Amino%20Ethane%20Sulphonic%20Acid%20(Taurine)%2C%20levo%20Glutaminde%2C%20Y-Glutamyl-%20Cysteinylglycine%2C%20Thiamine%2C%20Pyridoxine%2C%20Riboflavine%20%26%20Cyanocobalamine%20Tablets.webp",
+    "description": "2-Amino Ethane Sulphonic Acid (Taurine), levo Glutaminde, Y-Glutamyl- Cysteinylglycine, Thiamine, Pyridoxine, Riboflavine & Cyanocobalamine tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Energy and vitality support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Antioxidants, Lycopene, Essential Amino Acids, DHA(Veg), Alphalipoic Acid, Cyanocobalamin, Multivitamins & Multiminerals Dietary Supplement",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Antioxidants%2C%20Lycopene%2C%20Essential%20Amino%20Acids%2C%20DHA(Veg)%2C%20Alphalipoic%20Acid%2C%20Cyanocobalamin%2C%20Multivitamins%20%26%20Multiminerals%20Dietary%20Supplement.webp",
+    "description": "Antioxidants, Lycopene, Essential Amino Acids, DHA(Veg), Alphalipoic Acid, Cyanocobalamin, Multivitamins & Multiminerals tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Maternal nutrition support"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Astaxanthin, Copper, Lycopene, Lutein, Methylcobalamine & Zinc Sulphate Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Astaxanthin%2C%20Copper%2C%20Lycopene%2C%20Lutein%2C%20Methylcobalamine%20%26%20Zinc%20Sulphate%20Tablets.webp",
+    "description": "Astaxanthin, Copper, Lycopene, Lutein, Methylcobalamine & Zinc Sulphate tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Astaxanthin, L-Arginine, Inositol, Lycopene, Selenium, Zinc and Vitamins Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Astaxanthin%2C%20L-Arginine%2C%20Inositol%2C%20Lycopene%2C%20Selenium%2C%20Zinc%20and%20Vitamins%20Tablets.webp",
+    "description": "Astaxanthin, L-Arginine, Inositol, Lycopene, Selenium, Zinc and Vitamins tablets created to support hormonal balance, metabolic wellness, and daily nutrient needs.",
+    "features": [
+      "Skin and antioxidant support",
+      "Hormonal and metabolic support",
+      "Energy and vitality support"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Beta-Carotene Natural, Vitamin C, Grapes Seeds Extract, Ginkgo Biloba Extract, Green Tea Extract, Lycopene, Vitamins & Minerals Tablet",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Beta-Carotene%20Natural%2C%20Vitamin%20C%2C%20Grapes%20Seeds%20Extract%2C%20Ginkgo%20Biloba%20Extract%2C%20Green%20Tea%20Extract%2C%20Lycopene%2C%20Vitamins%20%26%20Minerals%20Tablet.webp",
+    "description": "Beta-Carotene Natural, Vitamin C, Grapes Seeds Extract, Ginkgo Biloba Extract, Green Tea Extract, Lycopene, Vitamins & Minerals tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Biotin, Ginseng, Grape Seed Extract, Amino Acids, Calcium Pantothenate & Soya Isoflavone Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Biotin%2C%20Ginseng%2C%20Grape%20Seed%20Extract%2C%20Amino%20Acids%2C%20Calcium%20Pantothenate%20%26%20Soya%20Isoflavone%20Tablets.webp",
+    "description": "Biotin, Ginseng, Grape Seed Extract, Amino Acids, Calcium Pantothenate & Soya Isoflavone tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Skin and antioxidant support",
+      "Herbal wellness support"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Biotin, L-Methylfolate, Cyanocobalamin, Pyridoxal 5-Phosphate, Zinc Sulphate, Vitamin D3 & DHA Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Biotin%2C%20L-Methylfolate%2C%20Cyanocobalamin%2CPyridoxal%205-Phosphate%2C%20Zinc%20Sulphate%2C%20Vitamin%20D3%20%26%20DHA%20Tablets.webp",
+    "description": "Biotin, L-Methylfolate, Cyanocobalamin, Pyridoxal 5-Phosphate, Zinc Sulphate, Vitamin D3 & DHA tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Biotin, Niacinamide, Minerals & Amino Acids Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Biotin%2C%20Niacinamide%2C%20Minerals%20%26%20Amino%20Acids%20Tablets.webp",
+    "description": "Biotin, Niacinamide, Minerals & Amino Acids tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Biotin, Soya Isoflavones, Multivitamins, Multiminerals with Amino Acids Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Biotin%2C%20Soya%20Isoflavones%2C%20Multivitamins%2C%20Multiminerals%20with%20Amino%20Acids%20Tablets.webp",
+    "description": "Biotin, Soya Isoflavones, Multivitamins, Multiminerals with Amino Acids tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Boswellic Acid, Hyaluronic Acid, Curcumin, Glucosamine HCL, Chondroitin Sulphate, Vitamin D3, Zinc, Magnesium & Vitamin K2-7 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Boswellic%20Acid%2C%20Hyaluronic%20Acid%2C%20Curcumin%2C%20Glucosamine%20HCL%2C%20Chondroitin%20Sulphate%2C%20Vitamin%20D3%2C%20Zinc%2C%20Magnesium%20%26%20Vitamin%20K2-7%20Tablets.webp",
+    "description": "Boswellic Acid, Hyaluronic Acid, Curcumin, Glucosamine HCL, Chondroitin Sulphate, Vitamin D3, Zinc, Magnesium & Vitamin K2-7 tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Bone health support",
+      "Joint and mobility support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Calcium Aspartate, Calcium Orotate with Vitamins & Minerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Aspartate%2C%20Calcium%20Orotate%20with%20Vitamins%20%26%20Minerals%20Tablets.webp",
+    "description": "Calcium Aspartate, Calcium Orotate with Vitamins & Minerals tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Calcium Carbonate and Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Carbonate%20and%20Vitamin%20D3%20Tablets.webp",
+    "description": "Calcium Carbonate and Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Calcium Carbonate Vitamin D3 (Cholecalciferol) Magnesium Zinc Vitamin B12 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Carbonate%20Vitamin%20D3%20(Cholecalciferol)%20Magnesium%20Zinc%20Vitamin%20B12%20Tablets.webp",
+    "description": "Calcium Carbonate Vitamin D3 (Cholecalciferol) Magnesium Zinc Vitamin B12 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Calcium Carbonate, Cissus Quadrangularis and Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Carbonate%2C%20Cissus%20Quadrangularis%20and%20Vitamin%20D3%20Tablets.webp",
+    "description": "Calcium Carbonate, Cissus Quadrangularis and Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Calcium Citrate Malate Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%20Malate%20Vitamin%20D3%20Tablets.webp",
+    "description": "Calcium Citrate Malate Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Calcium Citrate Malate, Calcitriol, Vitamin K,7, Vitamin B(2, DHA, EPA & Boron Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%20Malate%2C%20Calcitriol%2C%20Vitamin%20K%2C7%2C%20Vitamin%20B(2%2C%20DHA%2C%20EPA%20%26%20Boron%20Tablets.webp",
+    "description": "Calcium Citrate Malate, Calcitriol, Vitamin K,7, Vitamin B(2, DHA, EPA & Boron tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Maternal nutrition support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Calcium Citrate Malate, Vitamin D3 and Folic Acid Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%20Malate%2C%20Vitamin%20D3%20and%20Folic%20Acid%20Tablets.webp",
+    "description": "Calcium Citrate Malate, Vitamin D3 and Folic Acid tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Calcium Citrate Malate, Vitamin D3, Zinc Sulphate & Magnesium Hydroxide Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%20Malate%2C%20Vitamin%20D3%2C%20Zinc%20Sulphate%20%26%20Magnesium%20Hydroxide%20Tablets.webp",
+    "description": "Calcium Citrate Malate, Vitamin D3, Zinc Sulphate & Magnesium Hydroxide tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Calcium Citrate, Vitamin D3, Magnesium and Zinc Chewable Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%2C%20Vitamin%20D3%2C%20Magnesium%20and%20Zinc%20Chewable%20Tablets.webp",
+    "description": "Calcium Citrate, Vitamin D3, Magnesium and Zinc Chewable tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Calcium Citrate, Vitamin D3, Vitamin K2-7, Magnesium, Methylcobalamin, L-Methylfolate, Zinc Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%2C%20Vitamin%20D3%2C%20Vitamin%20K2-7%2C%20Magnesium%2C%20Methylcobalamin%2C%20L-Methylfolate%2C%20Zinc%20Tablets.webp",
+    "description": "Calcium Citrate, Vitamin D3, Vitamin K2-7, Magnesium, Methylcobalamin, L-Methylfolate, Zinc tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Calcium Citrate, Vitamin D3, Zinc Sulphate & Magnesium Hydroxide Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Citrate%2C%20Vitamin%20D3%2C%20Zinc%20Sulphate%20%26%20Magnesium%20Hydroxide%20Tablets.webp",
+    "description": "Calcium Citrate, Vitamin D3, Zinc Sulphate & Magnesium Hydroxide tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Calcium Pantothenate, Folic Acid, Vitamin B6, Zinc & D-Biotin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Calcium%20Pantothenate%2C%20Folic%20Acid%2C%20Vitamin%20B6%2C%20Zinc%20%26%20D-Biotin%20Tablets.webp",
+    "description": "Calcium Pantothenate, Folic Acid, Vitamin B6, Zinc & D-Biotin tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Skin and antioxidant support"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Cholecalciferol, Ferrous Ascorbate, Folic Acid, Zinc & Cyanocobalamin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Cholecalciferol%2C%20Ferrous%20Ascorbate%2C%20Folic%20Acid%2C%20Zinc%20%26%20Cyanocobalamin%20Tablets.webp",
+    "description": "Cholecalciferol, Ferrous Ascorbate, Folic Acid, Zinc & Cyanocobalamin tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Cissus Quadrangularis, Calcium Citrate and Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Cissus%20Quadrangularis%2C%20Calcium%20Citrate%20and%20Vitamin%20D3%20Tablets.webp",
+    "description": "Cissus Quadrangularis, Calcium Citrate and Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Cissus Quadrangularis, Calcium Citrate, Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Cissus%20Quadrangularis%2C%20Calcium%20Citrate%2C%20Vitamin%20D3%20Tablets.webp",
+    "description": "Cissus Quadrangularis, Calcium Citrate, Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Coenzyme Q10, L-Carnitine, Lycopene and Zinc Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Coenzyme%20Q10%2C%20L-Carnitine%2C%20Lycopene%20and%20Zinc%20Tablets.webp",
+    "description": "Coenzyme Q10, L-Carnitine, Lycopene and Zinc tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Energy and vitality support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Coenzyme Q10, Natural Extract, Vitamins with Amino Acids & Minerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Coenzyme%20Q10%2C%20Natural%20Extract%2C%20Vitamins%20with%20Amino%20Acids%20%26%20Minerals%20Tablets.webp",
+    "description": "Coenzyme Q10, Natural Extract, Vitamins with Amino Acids & Minerals tablets formulated to support energy metabolism, stamina, and daily vitality.",
+    "features": [
+      "Energy and vitality support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "DHA, EPA, L-Methylfolate Calcium, Vitamin D3, lodine with Multivitamin & Multimineral Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/DHA%2C%20EPA%2C%20L-Methylfolate%20Calcium%2C%20Vitamin%20D3%2C%20lodine%20with%20Multivitamin%20%26%20Multiminaral%20Tablets.webp",
+    "description": "DHA, EPA, L-Methylfolate Calcium, Vitamin D3, lodine with Multivitamin & Multimineral tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Active vitamin support",
+      "Maternal nutrition support"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Docosahexaenoic acid (DHA) and Folic Acid Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Docosahexaenoic%20acid%20(DHA)%20and%20Folic%20Acid%20Tablets.webp",
+    "description": "Docosahexaenoic acid (DHA) and Folic Acid tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Maternal nutrition support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Essential Amino Acid, Antioxidants, Lycopene, Astaxanthin, Coenzyme Q10, L-Arginine, ALA, Inositol, L-MethylFolate, Chromium, Vitamin D3 with Vitamins & Minerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Essential%20Amino%20Acid%2C%20Antioxidants%2C%20Lycopene%2C%20Astaxanthin%2C%20Coenzyme%20Q10%2C%20L-Arginine%2C%20ALA%2C%20Inositol%2C%20L-MethylFolate%2C%20Chromium%2C%20Vitamin%20D3%20with%20Vitamins%20%26%20Minerals%20Tablets.webp",
+    "description": "Essential Amino Acid, Antioxidants, Lycopene, Astaxanthin, Coenzyme Q10, L-Arginine, ALA, Inositol, L-MethylFolate, Chromium, Vitamin D3 with Vitamins & Minerals tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Active vitamin support",
+      "Skin and antioxidant support"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Ferrous Ascorbate & Folic Acid Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Ascorbate%20%26%20Folic%20Acid%20Tablets.webp",
+    "description": "Ferrous Ascorbate & Folic Acid tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Ferrous Ascorbate, Folic Acid & Zinc Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Ascorbate%2C%20Folic%20Acid%20%26%20Zinc%20Tablets.webp",
+    "description": "Ferrous Ascorbate, Folic Acid & Zinc tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Ferrous Ascorbate, Folic Acid and Zinc Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Ascorbate%2C%20Folic%20Acid%20and%20Zinc%20Tablets.webp",
+    "description": "Ferrous Ascorbate, Folic Acid and Zinc tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Ferrous Ascorbate, Folic Acid, Zinc & Vitamin B12 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Ascorbate%2C%20Folic%20Acid%2C%20Zinc%20%26%20Vitamin%20B12%20Tablets.webp",
+    "description": "Ferrous Ascorbate, Folic Acid, Zinc & Vitamin B12 tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Ferrous Bis-Glycinate, Cyanocobalamin, Folic Acid, Zinc Bis-Glycinate and Vitamin C Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Bis-Glycinate%2C%20Cyanocobalamin%2C%20Folic%20Acid%2C%20Zinc%20Bis-Glycinate%20and%20Vitamin%20C%20Tablets.webp",
+    "description": "Ferrous Bis-Glycinate, Cyanocobalamin, Folic Acid, Zinc Bis-Glycinate and Vitamin C tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Ferrous Bis-Glycinate, cyanocobalamine, zinc Bis-glycinate and Vitamin C Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ferrous%20Bis-Glycinate%2C%20cyanocobalamine%2C%20zinc%20Bis-glycinate%20and%20Vitamin%20C%20Tablets.webp",
+    "description": "Ferrous Bis-Glycinate, cyanocobalamine, zinc Bis-glycinate and Vitamin C tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Folic Acid, Pyridoxine and Methylcobalamin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Folic%20Acid%2C%20Pyridoxine%20and%20Methylcobalamin%20Tablets.webp",
+    "description": "Folic Acid, Pyridoxine and Methylcobalamin tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Ginko Biloba, Ginseng, Green Tea Extract, Grape Seed Extract with Multivitamins & Multiminerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ginko%20Biloba%2C%20Ginseng%2C%20Green%20Tea%20Extract%2C%20Grape%20Seed%20Extract%20with%20Multivitamins%20%26%20Multiminerals%20Tablets.webp",
+    "description": "Ginko Biloba, Ginseng, Green Tea Extract, Grape Seed Extract with Multivitamins & Multiminerals tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "GlucoBless",
+    "category": "tablets",
+    "image": "assets/img/Tablets/GlucoBless.webp",
+    "description": "GlucoBless tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Glucosamine & Chondroitin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Glucosamine%20%26%20Chondroitin%20Tablets.webp",
+    "description": "Glucosamine & Chondroitin tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Joint and mobility support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Glucosamine Hcl, Methyl sulfony Methane, Chondroitin Sulphate, Boswellia Serrata, Collagen Peptide & Sodium Hyaluronate Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Glucosamine%20Hcl%2C%20Methyl%20sulfony%20Methane%2C%20Chondroitin%20Sulphate%2C%20Boswellia%20Serrata%2C%20Collagen%20Peptide%20%26%20Sodium%20Hyaluronate%20Tablets.webp",
+    "description": "Glucosamine Hcl, Methyl sulfony Methane, Chondroitin Sulphate, Boswellia Serrata, Collagen Peptide & Sodium Hyaluronate tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Joint and mobility support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Herbal Extracts, Vitamins, Minerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Herbal%20Extracts%2C%20Vitamins%2C%20Minerals%20Tablets.webp",
+    "description": "Herbal Extracts, Vitamins, Minerals tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Herbal wellness support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Ideal Supplement in Pregnancy and Lactation",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Ideal%20Supplement%20in%20Pregnancy%20and%20Lactation.webp",
+    "description": "Ideal Supplement in Pregnancy and Lactation tablets formulated to support maternal nutrition and daily vitamin-mineral requirements.",
+    "features": [
+      "Maternal nutrition support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Iron, Bioflavonoids, Brahmi, Amino Acids with Vitamins & Minerals Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Iron%2C%20Bioflavonoids%2C%20Brahmi%2C%20Amino%20Acids%20with%20Vitamins%20%26%20Minerals%20Tablets.webp",
+    "description": "Iron, Bioflavonoids, Brahmi, Amino Acids with Vitamins & Minerals tablets formulated to support iron intake, red blood cell formation, and daily vitality.",
+    "features": [
+      "Blood health support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "L-Arginine 500 mg, Collagen Peptide Type 40 mg, Sodium Hyaluronate 30 mg, Chondroitin Sulphate 200 mg, Vitamin C 12.5 mg",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Arginine%20500%20mg%2C%20Collagen%20Peptide%20Type%20%2040%20mg%2C%20Sodium%20Hyaluronate%2030%20mg%2C%20Chondroitin%20Sulphate%20200%20mg%2C%20Vitamin%20C%2012.5%20mg.webp",
+    "description": "L-Arginine 500 mg, Collagen Peptide Type 40 mg, Sodium Hyaluronate 30 mg, Chondroitin Sulphate 200 mg, Vitamin C 12.5 mg tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Joint and mobility support",
+      "Skin and antioxidant support",
+      "Energy and vitality support"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "L-Arginine, Collagen Peptide Type-1, Sodium Hyaluronate, Chondroitin Sulphate and Vitamin C Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Arginine%2C%20Collagen%20Peptide%20Type-1%2C%20Sodium%20Hyaluronate%2C%20Chondroitin%20Sulphate%20and%20Vitamin%20C%20Tablets.webp",
+    "description": "L-Arginine, Collagen Peptide Type-1, Sodium Hyaluronate, Chondroitin Sulphate and Vitamin C tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Joint and mobility support",
+      "Skin and antioxidant support",
+      "Energy and vitality support"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "L-Arginine, L-Carnitine L-Tartrate, Co-Enzyme Q10, Flaxseed Extract Powder, Folic Acid, Pyridoxine Hydrochloride, Cyanocobalamin & Lycopene Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Arginine%2C%20L-Carnitine%20L-Tartrate%2C%20Co-Enzyme%20Q10%2C%20Flaxseed%20Extract%20Powder%2C%20Folic%20Acid%2C%20Pyridoxine%20Hydrochloride%2C%20Cyanocobalamin%20%26%20Lycopene%20Tablets.webp",
+    "description": "L-Arginine, L-Carnitine L-Tartrate, Co-Enzyme Q10, Flaxseed Extract Powder, Folic Acid, Pyridoxine Hydrochloride, Cyanocobalamin & Lycopene tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Energy and vitality support"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "L-Carnitine L- Tartrate,Ubiquinone, Magnesium Bisglycinate & Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Carnitine%20L-%20Tartrate%2CUbiquinone%2C%20Magnesium%20Bisglycinate%20%26%20Vitamin%20D3%20Tablets.webp",
+    "description": "L-Carnitine L- Tartrate,Ubiquinone, Magnesium Bisglycinate & Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Energy and vitality support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "L-Carnitine L-Tartrate & Coenzyme 010 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Carnitine%20L-Tartrate%20%26%20Coenzyme%20010%20Tablets.webp",
+    "description": "L-Carnitine L-Tartrate & Coenzyme 010 tablets formulated to support energy metabolism, stamina, and daily vitality.",
+    "features": [
+      "Energy and vitality support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "L-Glutamine & Vitamins Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Glutamine%20%26%20Vitamins%20Tablets.webp",
+    "description": "L-Glutamine & Vitamins tablets formulated to support energy metabolism, stamina, and daily vitality.",
+    "features": [
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "L-Glutathione, Alpha Lipoic Acid, Vitamin C, Pine Bark Extract, Astaxanthin, Phyllanthus Emblica Extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Glutathione%2C%20Alpha%20Lipoic%20Acid%2C%20Vitamin%20C%2C%20Pine%20Bark%20Extract%2C%20Astaxanthin%2C%20Phyllanthus%20Emblica%20Extract%20Tablets.webp",
+    "description": "L-Glutathione, Alpha Lipoic Acid, Vitamin C, Pine Bark Extract, Astaxanthin, Phyllanthus Emblica Extract tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "L-Glutathione, Vitamin E, Vitamin C, Alpha Lipoic Acid & Grape seed Extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Glutathione%2C%20Vitamin%20E%2C%20Vitamin%20C%2C%20Alpha%20Lipoic%20Acid%20%26%20Grape%20seed%20Extract%20Tablets.webp",
+    "description": "L-Glutathione, Vitamin E, Vitamin C, Alpha Lipoic Acid & Grape seed Extract tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "L-Methyl Folate, Cyanocobalamine, DHA, Pyridoxal-5-Phosphate, Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methyl%20Folate%2C%20Cyanocobalamine%2C%20DHA%2C%20Pyridoxal-5-Phosphate%2C%20Vitamin%20D3%20Tablets.webp",
+    "description": "L-Methyl Folate, Cyanocobalamine, DHA, Pyridoxal-5-Phosphate, Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "L-Methyl Folate, Pyridoxal 5-Phosphate, Methylcobalamin, Biotin & Vitamin D3 Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methyl%20Folate%2C%20Pyridoxal%205-Phosphate%2C%20Methylcobalamin%2C%20Biotin%20%26%20Vitamin%20D3%20Tablets.webp",
+    "description": "L-Methyl Folate, Pyridoxal 5-Phosphate, Methylcobalamin, Biotin & Vitamin D3 tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "L-Methylfolate Mouth Dissolving Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%20Mouth%20Dissolving%20Tablets.webp",
+    "description": "L-Methylfolate Mouth Dissolving tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Active vitamin support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "L-Methylfolate, Methylcobalamin and Pyridoxal -Phosphate Mouth Dissolving Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%2C%20Methylcobalamin%20and%20Pyridoxal%20-Phosphate%20Mouth%20Dissolving%20Tablets.webp",
+    "description": "L-Methylfolate, Methylcobalamin and Pyridoxal -Phosphate Mouth Dissolving tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Active vitamin support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12 and Vitamin D3 Mouth Dissolving Tablets (2)",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%2C%20Pyridoxal%205-Phosphate%2C%20Vitamin%20B12%20and%20Vitamin%20D3%20Mouth%20Dissolving%20Tablets%20(2).webp",
+    "description": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12 and Vitamin D3 Mouth Dissolving Tablets (2) tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12 and Vitamin D3 Mouth Dissolving Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%2C%20Pyridoxal%205-Phosphate%2C%20Vitamin%20B12%20and%20Vitamin%20D3%20Mouth%20Dissolving%20Tablets.webp",
+    "description": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12 and Vitamin D3 Mouth Dissolving tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Active vitamin support"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12, Sodium Selenate, Chromium, Vitamin A and Vitamin D Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%2C%20Pyridoxal%205-Phosphate%2C%20Vitamin%20B12%2C%20Sodium%20Selenate%2C%20Chromium%2C%20Vitamin%20A%20and%20Vitamin%20D%20Tablets.webp",
+    "description": "L-Methylfolate, Pyridoxal 5-Phosphate, Vitamin B12, Sodium Selenate, Chromium, Vitamin A and Vitamin D tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Active vitamin support",
+      "Hormonal and metabolic support"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "L-Methylfolate, Vitamin B12, Pyridoxal-5 Phosphate and Biotin Mouth Dissolving Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/L-Methylfolate%2C%20Vitamin%20B12%2C%20Pyridoxal-5%20Phosphate%20and%20Biotin%20Mouth%20Dissolving%20Tabltes.webp",
+    "description": "L-Methylfolate, Vitamin B12, Pyridoxal-5 Phosphate and Biotin Mouth Dissolving tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Active vitamin support",
+      "Skin and antioxidant support"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Lactic Acid Bacillus and Zinc Sulphate Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Lactic%20Acid%20Bacillus%20and%20Zinc%20Sulphate%20Tablets.webp",
+    "description": "Lactic Acid Bacillus and Zinc Sulphate tablets designed to support digestive balance, gut comfort, and zinc nutrition.",
+    "features": [
+      "Digestive support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Melatonin, Biotin, Ginseng, Vitamin D3 Grape Seed Extract, Amino Acids, Calcium Pantothenate Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Melatonin%2C%20Biotin%2C%20Ginseng%2C%20Vitamin%20D3%20Grape%20Seed%20Extract%2C%20Amino%20Acids%2C%20Calcium%20Pantothenate%20Tablets.webp",
+    "description": "Melatonin, Biotin, Ginseng, Vitamin D3 Grape Seed Extract, Amino Acids, Calcium Pantothenate tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Skin and antioxidant support",
+      "Herbal wellness support"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Methylcobalamin & Biotin with Essentials Vitamins Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Methylcobalamin%20%26%20Biotinwith%20Essentials%20Vitamins%20Tablets.webp",
+    "description": "Methylcobalamin & Biotin with Essentials Vitamins tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Skin and antioxidant support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Moringa Leaf powder (Moringa oleifera) 500 mg",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Moringa%20Leaf%20powder%20(Moringa%20oleifera)%20500%20mg.webp",
+    "description": "Moringa Leaf powder (Moringa oleifera) 500 mg tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Herbal wellness support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Multivitamin, Multimineral & Lycopene Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Multivitamin%2C%20Multimineral%20%26%20Lycopene%20Tablets.webp",
+    "description": "Multivitamin, Multimineral & Lycopene tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Multivitamins, Multi minerals with Grape seed extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Multivitamins%2C%20Multi%20minerals%20with%20Grape%20seed%20extract%20Tablets.webp",
+    "description": "Multivitamins, Multi minerals with Grape seed extract tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Multivitamins, Multiminerals with Grapes Seed Extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Multivitamins%2C%20Multiminerals%20with%20Grapes%20Seed%20Extract%20Tablets.webp",
+    "description": "Multivitamins, Multiminerals with Grapes Seed Extract tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Multivitamins, multiminerals with Grape Seed Extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Mutivitamins%2C%20multiminerals%20with%20Grape%20Seed%20Extract%20Tablets.webp",
+    "description": "Multivitamins, multiminerals with Grape Seed Extract tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Myo- Inositol, D-Chiro Inositol, N-Acetylcysteine, Vitamin D3, Chromium Picolinate, D-Biotin, Folic Acid & Lycopene Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Myo-%20Inositol%2C%20D-Chiro%20Inositol%2C%20N-Acetylcysteine%2C%20Vitamin%20D3%2C%20Chromium%20Picolinate%2C%20D-Biotin%2C%20Folic%20Acid%20%26%20Lycopene%20Tablets.webp",
+    "description": "Myo- Inositol, D-Chiro Inositol, N-Acetylcysteine, Vitamin D3, Chromium Picolinate, D-Biotin, Folic Acid & Lycopene tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Skin and antioxidant support"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Myo-inositol, D-Chiro-Inositol, L-Methylfolate, Vitamin D3 Chewable Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Myo-inositol%2C%20D-Chiro-Inositol%2C%20L-Methylfolate%2C%20Vitamin%20D3%20Chewable%20Tablets.webp",
+    "description": "Myo-inositol, D-Chiro-Inositol, L-Methylfolate, Vitamin D3 Chewable tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Active vitamin support",
+      "Hormonal and metabolic support"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Myo-Inositol, D-Chiro-Inositol, Vitamin D3 & Chromium Picolinate Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Myo-Inositol%2C%20D-Chiro-Inositol%2C%20Vitamin%20D3%20%26%20Chromium%20Picolinate%20Tablets.webp",
+    "description": "Myo-Inositol, D-Chiro-Inositol, Vitamin D3 & Chromium Picolinate tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Hormonal and metabolic support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Myoinositol, D-Chiro-inositol, N-Acetylcysteine, Berberine, Fenugreek Extract, Vitamin D3 (Cholecalciferol) Chromiun (Chromium Picolinate), Vitex aganus extract Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Myoinositol%2C%20D-Chiro-inositol%2C%20N-Acetylcysteine%2C%20Berberine%2C%20Fenugreek%20Extract%2C%20Vitamin%20D3%20(Cholecalciferol)%20Chromiun%20(Chromium%20Picolinate)%2C%20Vitex%20aganus%20extract%20Tablets.webp",
+    "description": "Myoinositol, D-Chiro-inositol, N-Acetylcysteine, Berberine, Fenugreek Extract, Vitamin D3 (Cholecalciferol) Chromiun (Chromium Picolinate), Vitex aganus extract tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Hormonal and metabolic support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Sea Buckthorn 1000 mg, Vitamin C 500 mg",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Sea%20Buckthorn%201000%20mg%2C%20Vitamin%20C%20500%20mg.webp",
+    "description": "Sea Buckthorn 1000 mg, Vitamin C 500 mg tablets blended for antioxidant care, skin nourishment, and overall wellness support.",
+    "features": [
+      "Skin and antioxidant support",
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Silymarin, Lecithin, N-Acetyl L-Cysteine, Vitamin E and L-Ornithine Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Silymarin%2C%20Lecithin%2C%20N-Acetyl%20L-Cysteine%2C%20Vitamin%20E%20and%20L-Ornithine%20Tablets.webp",
+    "description": "Silymarin, Lecithin, N-Acetyl L-Cysteine, Vitamin E and L-Ornithine tablets designed to support liver wellness, antioxidant defense, and daily nutritional care.",
+    "features": [
+      "Skin and antioxidant support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Tablets of Beta Carotene, Zinc Sulphate Monohydrate, Sodium Selenate, Magnesium Sulphate Monohydrate, Copper Sulphate Penta Hydrate",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Tablets%20of%20Beta%20Carotene%2C%20Zinc%20Sulphate%20Monohydrate%2C%20Sodium%20Selenate%2C%20Magnesium%20Sulphate%20Monohydrate%2C%20Copper%20Sulphate%20Penta%20Hydrate.webp",
+    "description": "Tablets of Beta Carotene, Zinc Sulphate Monohydrate, Sodium Selenate, Magnesium Sulphate Monohydrate, Copper Sulphate Penta Hydrate tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Tablets of Multivitamins, Multiminerals, Amino Acid with Taurine & Ginseng Extract (2)",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Tablets%20of%20Multivitamins%2C%20Multiminerals%2C%20Amino%20Acid%20with%20Taurine%20%26%20Ginseng%20Extract%20(2).webp",
+    "description": "Tablets of Multivitamins, Multiminerals, Amino Acid with Taurine & Ginseng Extract (2) tablets formulated to support energy metabolism, stamina, and daily vitality.",
+    "features": [
+      "Energy and vitality support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Tablets of Multivitamins, Multiminerals, Amino Acid with Taurine & Ginseng Extract",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Tablets%20of%20Multivitamins%2C%20Multiminerals%2C%20Amino%20Acid%20with%20Taurine%20%26%20Ginseng%20Extract.webp",
+    "description": "Tablets of Multivitamins, Multiminerals, Amino Acid with Taurine & Ginseng Extract tablets formulated to support energy metabolism, stamina, and daily vitality.",
+    "features": [
+      "Energy and vitality support",
+      "Herbal wellness support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Undenatured Collagen Type ll, L-Citruline, Vitamin E, Magnesium Bisglycinate, L-Glutamine, Asthaxanthin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Undenatured%20Collagen%20Type%20ll%2C%20L-Citruline%2C%20Vitamin%20E%2C%20Magnesium%20Bisglycinate%2C%20L-Glutamine%2C%20Asthaxanthin%20Tablets.webp",
+    "description": "Undenatured Collagen Type ll, L-Citruline, Vitamin E, Magnesium Bisglycinate, L-Glutamine, Asthaxanthin tablets formulated to support joint comfort, cartilage nutrition, and everyday mobility.",
+    "features": [
+      "Joint and mobility support",
+      "Skin and antioxidant support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Vitamin B12 1500 mcg Sublingual Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Vitamin%20B12%201500%20mcg%20Sublingual%20Tablets.webp",
+    "description": "Vitamin B12 1500 mcg Sublingual tablets providing active B-vitamin and folate support for daily nutritional balance.",
+    "features": [
+      "Blood health support",
+      "Active vitamin support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Vitamin D3 4000 IU Sublingual Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Vitamin%20D3%204000%20IU%20Sublingual%20Tablets.webp",
+    "description": "Vitamin D3 4000 IU Sublingual tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Active vitamin support",
+      "Daily nutritional support"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Vitamins, Minerals & Herbs Extracts Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Vitamins%2C%20Minerals%20%26%20Herbs%20Extracts%20Tablets.webp",
+    "description": "Vitamins, Minerals & Herbs Extracts tablets formulated as a daily nutritional supplement for targeted wellness support.",
+    "features": [
+      "Daily nutritional support",
+      "Tablet format"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Withania Somnifera, Calcium, Vitamin B12, Ferrous fumarate & Astaxanthin Tablets",
+    "category": "tablets",
+    "image": "assets/img/Tablets/Withania%20Somnifera%2C%20Calcium%2C%20Vitamin%20B12%2C%20Ferrous%20fumarate%20%26%20Astaxanthin%20Tablets.webp",
+    "description": "Withania Somnifera, Calcium, Vitamin B12, Ferrous fumarate & Astaxanthin tablets designed to support bone strength, calcium balance, and daily mineral nutrition.",
+    "features": [
+      "Bone health support",
+      "Blood health support",
+      "Skin and antioxidant support"
+    ]
+  }
+]

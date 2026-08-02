@@ -15,9 +15,9 @@
 
   <div class="hero-container">
     <div class="hero-content">
-      <span class="hero-badge">Trusted Since 2015</span>
+      <!-- <span class="hero-badge">Trusted Since 2015</span> -->
       <h1 class="hero-title">
-        Reliable Pharma Solutions<br>
+        Reliable Healthcare Solutions<br>
         <span class="highlight">for a Healthier Tomorrow</span>
       </h1>
       <p class="hero-description">
@@ -67,7 +67,7 @@
           </svg>
         </div>
         <h3>A Global Healthcare Partner</h3>
-        <p>Melizza Life Science is a trusted third‑party manufacturer trusted by healthcare professionals across 15+ countries.</p>
+        <p>Melizza Life Science is a trusted manufacturer trusted by healthcare professionals across 15+ countries.</p>
       </div>
       <!-- Card 2 -->
       <div class="highlight-card">
@@ -102,52 +102,86 @@
 <section class="product-categories">
   <div class="section-header">
     <span class="section-tag">Our Portfolio</span>
-    <h2>Reliable Pharma Solutions for a Healthier Tomorrow</h2>
-    <p>We offer a comprehensive range of high‑quality pharmaceutical, surgical, and Ayurvedic products.</p>
+    <h2>Reliable Healthcare Solutions for a Healthier Tomorrow</h2>
+    <p>We offer a comprehensive range of high‑quality pharmaceutical, nutraceutical, and wellness products.</p>
   </div>
+  
+  <!-- Updated Grid with 5 cards -->
   <div class="categories-grid">
-    <!-- Pharmaceutical -->
+    
+    <!-- 1. Nutraceutical -->
     <div class="category-card">
       <div class="category-icon">
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-          <circle cx="12" cy="12" r="4"/>
-          <line x1="12" y1="8" x2="12" y2="16"/>
-          <line x1="8" y1="12" x2="16" y2="12"/>
+          <path d="M9 12l2 2 4-4"/>
         </svg>
       </div>
-      <h3>Pharmaceutical Products</h3>
-      <p>High‑quality formulations manufactured under strict quality control, ensuring safety and efficacy.</p>
-      <a routerLink="/products/pharmaceutical" class="category-link">Explore <span>&rarr;</span></a>
+      <h3>Nutraceutical Products</h3>
+      <p>Comprehensive range of scientifically formulated health supplements and wellness products.</p>
+      <a routerLink="/products/category/nutraceutical" class="category-link">Explore <span>&rarr;</span></a>
     </div>
-    <!-- Surgical -->
+
+    <!-- 2. Effervescent -->
     <div class="category-card">
       <div class="category-icon">
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-          <polyline points="14 2 14 8 20 8"/>
-          <circle cx="12" cy="15" r="3"/>
-          <line x1="9" y1="12" x2="9" y2="18"/>
-          <line x1="15" y1="12" x2="15" y2="18"/>
+          <path d="M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2z"/>
+          <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+          <line x1="9" y1="9" x2="9.01" y2="9"/>
+          <line x1="15" y1="9" x2="15.01" y2="9"/>
         </svg>
       </div>
-      <h3>Surgical Products</h3>
-      <p>Precision surgical instruments and devices designed for safety, trust, and performance in healthcare settings.</p>
-      <a routerLink="/products/surgical" class="category-link">Explore <span>&rarr;</span></a>
+      <h3>Effervescent</h3>
+      <p>Fast-absorbing, easy-to-consume effervescent tablets for enhanced bioavailability and taste.</p>
+      <a routerLink="/products/category/effervescent" class="category-link">Explore <span>&rarr;</span></a>
     </div>
-    <!-- Ayurvedic -->
+
+    <!-- 3. Protein Powder -->
     <div class="category-card">
       <div class="category-icon">
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-          <path d="M2 17l10 5 10-5"/>
-          <path d="M2 12l10 5 10-5"/>
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M9 16c.5-1.5 1.5-2 3-2s2.5.5 3 2"/>
+          <path d="M7 9h.01"/>
+          <path d="M17 9h.01"/>
         </svg>
       </div>
-      <h3>Ayurvedic Products</h3>
-      <p>Authentic Ayurvedic remedies rooted in traditional knowledge, combining natural ingredients for holistic wellness.</p>
-      <a routerLink="/products/ayurvedic" class="category-link">Explore <span>&rarr;</span></a>
+      <h3>Protein Powder</h3>
+      <p>High-quality protein supplements designed for sports nutrition, recovery, and daily wellness.</p>
+      <a routerLink="/products/category/protein" class="category-link">Explore <span>&rarr;</span></a>
     </div>
+
+    <!-- 4. Sachet -->
+    <div class="category-card">
+      <div class="category-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="6" width="18" height="12" rx="2"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+          <path d="M7 6v12"/>
+          <path d="M17 6v12"/>
+        </svg>
+      </div>
+      <h3>Sachet</h3>
+      <p>Convenient, single-dose sachet packaging for powders, granules, and on-the-go nutrition.</p>
+      <a routerLink="/products/category/sachet" class="category-link">Explore <span>&rarr;</span></a>
+    </div>
+
+    <!-- 5. Tablets -->
+    <div class="category-card">
+      <div class="category-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="6" width="18" height="12" rx="2"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+          <line x1="3" y1="14" x2="21" y2="14"/>
+          <line x1="7" y1="6" x2="7" y2="18"/>
+        </svg>
+      </div>
+      <h3>Tablets</h3>
+      <p>Precision-engineered tablets formulated for accurate dosing, stability, and long-term efficacy.</p>
+      <a routerLink="/products/category/tablets" class="category-link">Explore <span>&rarr;</span></a>
+    </div>
+
   </div>
 </section>
 
@@ -159,11 +193,11 @@
     <p>Our certifications reflect our unwavering commitment to quality, safety, and regulatory compliance.</p>
   </div>
   <div class="cert-logos">
-    <img src="assets/img/who-gmp.svg" alt="WHO-GMP" loading="lazy">
-    <img src="assets/img/iso-9001.svg" alt="ISO 9001:2015" loading="lazy">
-    <img src="assets/img/dcgi.svg" alt="DCGI Approved" loading="lazy">
-    <img src="assets/img/anvisa.svg" alt="ANVISA" loading="lazy">
-    <img src="assets/img/kfda.svg" alt="KFDA" loading="lazy">
+    <img src="assets/img/330px-WHO_logo.svg.webp" alt="WHO-GMP" loading="lazy">
+    <img src="assets/img/960px-ISO_9001-2015.svg.webp" alt="ISO 9001:2015" loading="lazy">
+    <!-- <img src="assets/img/dcgi.svg" alt="DCGI Approved" loading="lazy"> -->
+    <img src="assets/img/Anvisa-logo_brandlogos.net_b24731.svg" alt="ANVISA" loading="lazy">
+    <!-- <img src="assets/img/kfda.svg" alt="KFDA" loading="lazy"> -->
     <!-- Additional existing logos if needed -->
     <img src="assets/img/tfda.png" alt="TFDA" loading="lazy">
   </div>

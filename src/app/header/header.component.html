@@ -4,7 +4,7 @@
     <!-- Logo -->
     <div class="header-logo">
       <a routerLink="/">
-        <img src="assets/img/melizzalogo.jpg" alt="Melizza Life Science" class="logo-image" height="40">
+        <img src="assets/img/melizza-logo-transparent.png" alt="Melizza Life Science" class="logo-image" height="40">
         <!-- <span class="logo-text">
           <span class="logo-brand">Melizza</span>
           <span class="logo-tagline">Life Science</span>
@@ -20,11 +20,11 @@
         <li class="has-dropdown">
           <a routerLink="/products" routerLinkActive="active">Products</a>
           <ul class="dropdown">
-            <li><a routerLink="/products/nutraceutical">Developed nutraceutical products</a></li>
-            <li><a routerLink="/products/effervescent">Effervescent</a></li>
-            <li><a routerLink="/products/protein">Protein powder</a></li>
-            <li><a routerLink="/products/sachet">Sachet</a></li>
-            <li><a routerLink="/products/tablets">Tablets</a></li>
+            <li><a routerLink="/products/category/nutraceutical">Developed nutraceutical products</a></li>
+            <li><a routerLink="/products/category/effervescent">Effervescent</a></li>
+            <li><a routerLink="/products/category/protein">Protein powder</a></li>
+            <li><a routerLink="/products/category/sachet">Sachet</a></li>
+            <li><a routerLink="/products/category/tablets">Tablets</a></li>
           </ul>
         </li>
         <li><a routerLink="/certificate" routerLinkActive="active">Certifications</a></li>
@@ -66,7 +66,7 @@
             <li><a routerLink="/products/category/tablets" (click)="closeMobileMenu()">Tablets</a></li>
           </ul>
         </li>
-        <li><a routerLink="/certifications" (click)="closeMobileMenu()">Certifications</a></li>
+        <li><a routerLink="/certificate" (click)="closeMobileMenu()">Certifications</a></li>
         <li><a routerLink="/contactus" (click)="closeMobileMenu()">Contact</a></li>
       </ul>
       <div class="mobile-cta">

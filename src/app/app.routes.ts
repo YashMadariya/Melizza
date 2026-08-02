@@ -9,6 +9,7 @@ export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'contactus', component: ContactusComponent },
     { path: 'products', component: ProductComponent },
+    { path: 'products/category/:categoryId', component: ProductComponent },
     { path: 'products/:categoryId', component: ProductComponent },
     { path: 'aboutus', component: AboutUsComponent },
     { path: 'certificate', component: CertificateComponent }
